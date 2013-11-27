@@ -1,0 +1,232 @@
+/*
+#------------------------------------------------------------------------
+# The real design - December 2011 template (for Joomla 1.6/1.7)
+#
+# Copyright (C) 2007-2011 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com 
+*/
+
+/* Style 3 */
+
+/* template.css */
+::selection { background: #008bda; }
+::-moz-selection { background: #008bda; }
+::-webkit-selection { background: #008bda; }
+a:hover, 
+a:active, 
+a:focus { color: #008bda; }
+h1, 
+h2, 
+h3, 
+h4, 
+h5 { color: #008bda; }
+h1#gkLogo a.cssLogo { background-image: url('images/logo.png'); }
+#gkBreadcrumb .breadcrumbs li.separator { background-image: url('images/breadcrumbs_bullets.png'); }
+#gkTools a { background-image: url('images/fonts.png'); }
+.box li, 
+.box_text li { background-image: url('images/bullet_red.png'); }
+.box h3.header > span, 
+.box_menu h3.header > span, 
+.box_text h3.header > span { color: #008bda; }
+.box.color > div { background: #008bda; color: #44cffe; }
+.box.color li { background-image: url('images/bullet_white.png'); }
+.box.color a { color: #fff; }
+.box.color a:active,
+.box.color a:focus,
+.box.color a:hover { color: #55dfff; }
+.box.dark li { background-image: url('images/bullet_white.png'); }
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover { color: #008bda; }
+.box.color1 h3.header > span,
+.box_menu.color1 h3.header > span,
+.box_text.color1 h3.header > span { color: #7ca401; }
+.box.color1 a:active,
+.box.color1 a:focus,
+.box.color1 a:hover,
+.box_menu.color1 a:active,
+.box_menu.color1 a:focus,
+.box_menu.color1 a:hover,
+.box_text.color1 a:active,
+.box_text.color1 a:focus,
+.box_text.color1 a:hover { color: #7ca401; }
+.box.color1 li { background-image: url('images/bullet_green.png'); }
+.box.color2 h3.header > span,
+.box_menu.color2 h3.header > span,
+.box_text.color2 h3.header > span { color: #da4d00; }
+.box.color2 a:active,
+.box.color2 a:focus,
+.box.color2 a:hover,
+.box_menu.color2 a:active,
+.box_menu.color2 a:focus,
+.box_menu.color2 a:hover,
+.box_text.color2 a:active,
+.box_text.color2 a:focus,
+.box_text.color2 a:hover { color: #da4d00; }
+.box.color2 li { background-image: url('images/bullet_blue.png'); }
+.box.reversed h3.header,
+.box_menu.reversed h3.header,
+.box_text.reversed h3.header { color: #da4d00; }
+.box.bubble h3.header,
+.box_menu.bubble h3.header,
+.box_text.bubble h3.header { background-image: url('images/bubble.png'); }
+.box_menu ul li { background-image: url('images/menu_arrow.png'); }
+.box_menu .active { color: #008bda; }
+.box.small li { background-image: url('images/bullet_white.png'); }
+
+/* menu.css */
+#gkMainMenu > div > ul > li > a {
+	color:#000;
+	background-image: url('images/bullets_2.png');
+} 
+#gkMainMenu > div > ul > li.active > a {
+	color:#fff;
+	background: transparent url('images/bullets.png');
+}
+
+#gkMainMenu > div > ul > li > div.childcontent > div.childcontent-inner-wrap > span.childcontent-bullet { background-image: url('images/submenu_bg.png'); }
+#gkMainMenu > div > ul div.childcontent li { background-image: url('images/bullet_red.png'); }
+#gkMainMenu > div > ul div.childcontent li.active > a,
+#gkMainMenu > div > ul div.childcontent li.active > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a,
+#gkMainMenu > div > ul div.childcontent li:hover > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover,
+#gkMainMenu > div > ul div.childcontent li > span:hover,
+#gkMainMenu > div > ul div.childcontent li.active > a > span,
+#gkMainMenu > div > ul div.childcontent li.active > span > span,
+#gkMainMenu > div > ul div.childcontent li:hover > a > span,
+#gkMainMenu > div > ul div.childcontent li:hover > span > span,
+#gkMainMenu > div > ul div.childcontent li > a:hover > span,
+#gkMainMenu > div > ul div.childcontent li > span:hover > span { color: #008bda; }
+#gkMainMenu > div > ul div.childcontent .group-title .menu-title { color: #008bda; }
+#gkSubmenu > div > ul > li { background-image: url('images/breadcrumbs_bullets.png'); }
+#gkSubmenu ul li li { background-image: url('images/bullet_red.png'); }
+#gkSubmenu ul li li > a:hover,
+#gkSubmenu ul li li > a:hover > span { color: #008bda; }
+
+/* joomla.css */
+.button:hover, 
+.button:focus, 
+button:hover, 
+button:focus, 
+input[type="submit"]:hover, 
+input[type="submit"]:focus, 
+input[type="button"]:hover, 
+input[type="button"]:focus,  
+.pagenav-next a:hover, 
+.pagenav-prev a:hover, 
+.pagenav-next a:active, 
+.pagenav-prev a:active, 
+.pagenav-next a:focus, 
+.pagenav-prev a:focus { background: #008bda; }
+p.readmore a, 
+a.readon,
+a.k2ReadMore { background-image: url('images/arrows.png'); }
+.items-more ol li { background-image: url('images/bullet_red.png'); }
+#system-message dd.message ul li, #system-message dd.error ul li, #system-message dd.notice ul li { background-image: url('images/info_small.png');  }
+#system-message dd.error ul li { background-image: url('images/warning_small.png'); }
+#system-message dd.notice ul li { background-image: url('images/tips_small.png'); }
+form#member-registration .spacer strong,
+form#member-registration fieldset dt span.star { color: #008bda; }
+.weblink-category table td.title { background-image: url('images/bullet_red.png'); }
+div#article-index h3 { border-bottom: 3px solid #008bda; }
+div.pagenavcounter { color: #008bda; }
+dl#tabs dt:hover { color: #008bda; } 
+dl#tabs dt.open { border-bottom: 1px solid #008bda; color: #008bda; }
+dl#tabs dt:hover a, 
+dl#tabs dt.open a { color: #008bda; }
+
+/* gk_stuff.css */
+ul.gkTabs li.active,
+.gkTabsWrap.vertical ol li.active { border-bottom: 1px solid #008bda; color: #008bda; }
+ul.gkTabs li:hover,
+.gkTabsWrap.vertical ol li:hover { color: #008bda; }
+/* suffix tab1 */
+.tab1 ul.gkTabs li.active,
+.tab1 .gkTabsWrap.vertical ol li.active { border-bottom: 1px solid #7ca401; color: #7ca401; }
+.tab1 ul.gkTabs li:hover,
+.tab1 .gkTabsWrap.vertical ol li:hover { color: #7ca401; }
+/* suffix tab2 */
+.tab2 ul.gkTabs li.active,
+.tab2 .gkTabsWrap.vertical ol li.active { border-bottom: 1px solid #da4d00; color: #da4d00; }
+.tab2 ul.gkTabs li:hover,
+.tab2 .gkTabsWrap.vertical ol li:hover { color: #da4d00; }
+/* NSP */
+.nspBotInterface .nspPagination li,
+.nspTopInterface .nspPagination li,
+.nspBotInterface .nspPagination li.active,
+.nspTopInterface .nspPagination li.active { background-image: url('images/bullets.png'); background-position: -1px -102px; }
+.nspBotInterface .nspPagination li:hover,
+.nspBotInterface .nspPagination li.active,
+.nspTopInterface .nspPagination li:hover,
+.nspTopInterface .nspPagination li.active { background-position: -1px -12px; }
+.nspBotInterface .nspPrev,
+.nspTopInterface .nspPrev,
+.nspBotInterface .nspNext,
+.nspTopInterface .nspNext { background-image: url('images/nsp_arrows.png'); background-position: 0 -160px; }
+.nspBotInterface .nspNext,
+.nspTopInterface .nspNext { background-position: 0 -10px; }
+/* suffix color1 */
+.color1 .nspBotInterface .nspPrev,
+.color1 .nspTopInterface .nspPrev,
+.color1 .nspBotInterface .nspNext,
+.color1 .nspTopInterface .nspNext { background-position: 0 -190px; }
+.color1 .nspBotInterface .nspNext,
+.color1 .nspTopInterface .nspNext { background-position: 0 -40px; }
+.color1 .nspBotInterface .nspPagination li:hover,
+.color1 .nspBotInterface .nspPagination li.active,
+.color1 .nspTopInterface .nspPagination li:hover,
+.color1 .nspTopInterface .nspPagination li.active { background-position: -1px -42px; }
+.color1 a.readon { background-position: right -37px; }
+/* suffix color2 */
+.color2 .nspBotInterface .nspPrev,
+.color2 .nspTopInterface .nspPrev,
+.color2 .nspBotInterface .nspNext,
+.color2 .nspTopInterface .nspNext { background-position: 0 -220px; }
+.color2 .nspBotInterface .nspNext,
+.color2 .nspTopInterface .nspNext { background-position: 0 -70px; }
+.color2 .nspBotInterface .nspPagination li:hover,
+.color2 .nspBotInterface .nspPagination li.active,
+.color2 .nspTopInterface .nspPagination li:hover,
+.color2 .nspTopInterface .nspPagination li.active { background-position: -1px -72px; }
+.color2 a.readon { background-position: right -67px; }
+/* suffix color */
+.color .nspBotInterface .nspPrev,
+.color .nspTopInterface .nspPrev,
+.color .nspBotInterface .nspNext,
+.color .nspTopInterface .nspNext { background-position: 0 -250px; }
+.color .nspBotInterface .nspNext,
+.color .nspTopInterface .nspNext { background-position: 0 -100px; }
+.color .nspBotInterface .nspPagination li:hover,
+.color .nspBotInterface .nspPagination li.active,
+.color .nspTopInterface .nspPagination li:hover,
+.color .nspTopInterface .nspPagination li.active { background-position: -1px -102px; }
+.box.color .nspLinks ul li { border-top: 1px solid #eb4e11!important; }
+.color .nspArt p.nspInfo { color: #55dfff; }
+.color a.readon { background-position: right -97px; }
+.gkIsWrapper-gk_the_real_design .gkHeaderBg { background-image: url('images/is_bg.jpg'); }
+.gkIsWrapper-gk_the_real_design .gkIsInterface { background-image: url('images/is_shadow.png'); }
+.gkIsWrapper-gk_the_real_design .gkIsInterface ul li { background-image: url('images/is_pagination.png'); }
+
+/* k2.css */
+.catItemHeader .catItemTitle span sup, 
+.itemHeader .itemTitle span sup { color: #008bda; }
+.catItemTagsBlock ul.catItemTags li a:hover, 
+.itemTagsBlock ul.itemTags li a:hover { color: #008bda; }
+.itemRelated h3, 
+.itemAuthorLatest h3 { color: #008bda; }
+.itemRelated ul li, 
+.itemAuthorLatest ul li { background-image: url('images/bullet_red.png'); }
+.itemCommentsForm form span#formLog { color:#008bda; }
+.subCategory h3 span { color: #008bda; }
+#itemListLinks ul li { background-image: url('images/bullet_red.png'); }
+table.calendar tr td.calendarCurrentMonth { color: #008bda; }
+table.calendar tr td.calendarToday { background:#008bda; }
+table.calendar tr td.calendarTodayLinked a:hover { background:#22adfc; }
+.gkDate.comments { background-image: url('images/comments_icon.png'); }
+
+
+
+
