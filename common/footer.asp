@@ -13,27 +13,36 @@
 			</div>
 		</div>
  	</div>
-
-
+	
 	<script type="text/javascript">
-		var jq = jQuery.noConflict(); 
-		jq(document).ready(function(){
-			jq("#floatShow").bind("click",function(){
-				jq("#onlineService").animate({width:"show", opacity:"show"}, "normal" ,function(){
-					jq("#onlineService").show();
+		//var jq = jQuery.noConflict(); 
+		jQuery(document).ready(function(){
+			jQuery("#floatShow").bind("click",function(){
+				jQuery("#onlineService").animate({width:"show", opacity:"show"}, "normal" ,function(){
+					jQuery("#onlineService").show();
 				});
-				jq("#floatShow").attr("style","display:none");
-				jq("#floatHide").attr("style","display:block");
+				jQuery("#floatShow").attr("style","display:none");
+				jQuery("#floatHide").attr("style","display:block");
 				return false;
 			});
-			jq("#floatHide").bind("click",function(){
-				jq("#onlineService").animate({width:"hide", opacity:"hide"}, "normal" ,function(){
-					jq("#onlineService").hide();
+			jQuery("#floatHide").bind("click",function(){
+				jQuery("#onlineService").animate({width:"hide", opacity:"hide"}, "normal" ,function(){
+					jQuery("#onlineService").hide();
 				});
-				jq("#floatShow").attr("style","display:block");
-				jq("#floatHide").attr("style","display:none");
+				jQuery("#floatShow").attr("style","display:block");
+				jQuery("#floatHide").attr("style","display:none");
 		
 				return false;
+			});
+			
+			jQuery('#gkIs-gk-is-228').slideBox({
+				direction : 'left',//left,top
+				duration : 0.3,//
+				easing : 'linear',//swing,linear
+				delay : 5,//
+				startIndex : 1,//
+				hideClickBar : false,//
+				hideBottomBar : true//
 			});
 		});
 	</script>

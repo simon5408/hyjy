@@ -33,28 +33,58 @@
 
 .rightSide{
 	margin-left: 10px;
-	border:1px solid #F0F0F0; 
+	border:1px solid #808080; 
 	width: 784px; 
 }
 .rightSide .zkTitle,.bkTitle, .newsTitle, .zyjsTitle, .kctdTitle, .bmdzTitle, .kcjsTitle{
 	width: 100%;
-	border:1px solid #808080;
+	border:0px solid #808080;
 	border-bottom: 0px;
 	height: 40px;
 }
 .rightSide .zkList,.bkList,.newsList,.newsDetail,.zyjsDetail,.kctdDetail,.bmdzDetail,.kcjsDetail{
 	width: 100%;
 }
-.rightSide .zkList div,.bkList div{
+.rightSide .listDiv{
 	width: 240px;
 	height: 165px;
 	border:0px solid #808080;
 	float:left;
 	margin: 5px 9px 5px 9px; 
 }
+.rightSide .listDiv table{
+	margin:5px auto;
+}
+.rightSide .listDiv table .titleTd{
+	font:'ºÚÌå'; 
+	font-size:24px; 
+	color:#FFFFFF; 
+	font-weight: 200;
+	padding-left:8px;
+}
+.rightSide .listDiv table .contentTd{
+	font:'ºÚÌå'; 
+	font-size:15px; 
+	color:#FFFFFF; 
+	padding-left:8px;
+}
+.rightSide .listDiv table .priceDiv{
+	font-family:'Î¢ÈíÑÅºÚ'; 
+	font-size:20px; 
+	color:#FFEA06; 
+	height:32px; 
+	padding-left:8px; 
+	border:0px solid red;
+}
+.rightSide .listDiv table .butnDiv{
+	background:url("../images/tubiao.gif") no-repeat; 
+	width:80px; 
+	text-align:center; 
+	border:0px solid red;
+}
 .rightSide .newsList div{
 	width: 100%;
-	border-bottom: 1px solid #808080;
+	border-bottom: 1px solid #f0f0f0;
 	height: 30px;
 	vertical-align: bottom;
 	margin-top: 3px;
@@ -78,6 +108,12 @@
 	width: 100%;
 	height: 30px;
 	border: 0px solid #808080;
+	font-family:"ºÚÌå";
+}
+.rightSide .zyjsDetail .contentDiv .xxDiv span{
+	color: #990000;
+	font-size:14px;
+	font-weight:bold;
 }
 .rightSide .zyjsDetail .contentDiv .btnDivs div{
 	border: 0px solid #808080;
@@ -93,7 +129,7 @@
 
 /* Common */
 .bgColor{
-	background:red;
+	background:#f85921;
 }
 .cvipBg{
 	background-image:url("../images/zk_vip_bg.jpg");

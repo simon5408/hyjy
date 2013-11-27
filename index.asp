@@ -12,19 +12,14 @@
 	<!--#include file="common/top.asp" -->
     
 	<!-- 广告标语区-start -->
-    <div id="gkHeader" class="clear clearfix">
-		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1">
-			<div class="gkIsPreloader" style="opacity: 0; visibility: hidden;"></div>
-			<div class="gkIsImage" style="height: 500px;">
-				<img class="gkIsSlide" alt="#1" src="images/demo.a1edgk-is-228.jpg" style="margin-left: -551px; margin-top: 20px; z-index: 0; cursor: pointer; opacity: 0; visibility: hidden;">
-				<img class="gkIsSlide" alt="#2" src="images/demo.as2gk-is-228.jpg" style="margin-left: -551px; margin-top: 20px; z-index: 1; cursor: pointer; opacity: 1; visibility: visible;">
-				<img class="gkIsSlide" alt="#3" src="images/demo.as3ggk-is-228.jpg" style="margin-left: -551px; margin-top: 20px; z-index: 2; cursor: pointer; opacity: 0; visibility: hidden;">
-				<div class="gkIsPagination">
-					<div class="gkIsScale">
-						<div class="gkIsProgress" style="width: 97.3245829177005%; opacity: 1;"></div>
-					</div>
-				</div>
-			</div>
+    <div id="gkHeader" class="clear clearfix autoCenter">
+		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1 autoCenter slideBox" style="margin:20px auto">
+			<ul class="items">
+				<li><a href="#" title="Simon1"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
+				<li><a href="#" title="Simon2"><img src="images/demo.as2gk-is-228.jpg"></a></li>
+				<li><a href="#" title="Simon3"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
+				<li><a href="#" title="Simon4"><img src="images/demo.as3ggk-is-228.jpg"></a></li>
+			</ul>
 		</div>
     </div>
 	<!-- 广告标语区-end -->
@@ -32,7 +27,7 @@
 	<div id="gkPage">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
 		    <div id="mainContent" class="clear">
-				<div id="system-message-container"></div>
+				
 				<!-- -->
 				<div id="gkTop1" class="gkMain clear">
 					<div>

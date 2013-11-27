@@ -11,6 +11,7 @@
 	  	<link rel="stylesheet" type="text/css" href="css/style3.css">
 	  	<link rel="stylesheet" type="text/css" href="css/style.css">
   		<link rel="stylesheet" type="text/css" href="css/style2.css">
+		<link rel="stylesheet" type="text/css" href="css/hyjyweb.css">
 		<!--[if IE 9.0]><link rel="stylesheet" href="css/ie9.css" type="text/css" /><![endif]-->
 		<!--[if IE 8.0]><link rel="stylesheet" href="css/ie8.css" type="text/css" /><![endif]-->
 		<!--[if IE 7.0]><link rel="stylesheet" href="css/ie7.css" type="text/css" /><![endif]-->
@@ -18,18 +19,16 @@
 		<script src="js/core.js" type="text/javascript"></script>
 		<script src="js/caption.js" type="text/javascript"></script>
 		<script src="js/mootools-more.js" type="text/javascript"></script>
-		<script src="js/menu.gkmenu.js" type="text/javascript"></script>
 		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		
+		<script src="slides/js/jquery.slideBox.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="slides/css/jquery.slideBox.css">
 		
 		<script type="text/javascript">
 			window.addEvent('load', function() {
 				new JCaption('img.caption');
 			});
-			$GKMenu = { height:true, width:true, duration: 250 };
-			$GK_TMPL_URL = "";
-			try {$Gavick;}catch(e){$Gavick = {};};
-			$Gavick["gkIs-gk-is-228"] = { "anim_speed": 500, "anim_interval": 5000, "autoanim": 1, "slide_links": 1 };
-			
+						
 			jQuery.noConflict();  
 			jQuery(document).ready(function(){
 				jQuery('#work li').hover(function(){
