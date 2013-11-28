@@ -1,6 +1,6 @@
 @charset "utf-8";
 html, body { font-family:"微软雅黑"}
-div.slideBox{ position:relative; width:1102px; height:462px; overflow:hidden;}
+div.slideBox{ position:relative; width:1100px; height:400px; overflow:hidden;}
 div.slideBox ul.items{ position:absolute; float:left; background:none; list-style:none; padding:0px; margin:0px;}
 div.slideBox ul.items li{ float:left; background:none; list-style:none; padding:0px; margin:0px;}
 div.slideBox ul.items li a{ float:left; line-height:normal !important; padding:0px !important; border:none/*For IE.ADD.JENA.201206300844*/;}

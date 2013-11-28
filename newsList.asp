@@ -9,19 +9,10 @@
 
 <body>
 	<!-- 头部操作菜单栏 -->
-	<!--#include file="common/top.asp" -->
+	<!--#include file="common/normalTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <div id="gkHeader" class="clear clearfix autoCenter">
-		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1 autoCenter slideBox" style="margin:20px auto">
-			<ul class="items">
-				<li><a href="#" title="Simon1"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon2"><img src="images/demo.as2gk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon3"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon4"><img src="images/demo.as3ggk-is-228.jpg"></a></li>
-			</ul>
-		</div>
-    </div>
+    <!--#include file="common/ad.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
@@ -35,7 +26,9 @@
 					<!--#include file="common/left.asp" -->
 					<!-- right -->
 					<div class="rightSide">
-						<div class="newsTitle bgColor"><img src="images/xwzx_title.jpg"></div>
+						<div class="newsTitle bgColor xwzxBgImg">
+							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+						</div>
 						<div class="newsList">
 							<div><a href="newsDetail.asp">&gt;&gt; 上海市高等教育自学考试社会助学管理实施细则</a></div>
 							<div><a href="newsDetail.asp">&gt;&gt; 上海市高等教育自学考试社会助学管理实施细则</a></div>

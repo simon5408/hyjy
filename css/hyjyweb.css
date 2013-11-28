@@ -1,3 +1,10 @@
+.proclass ul{
+	width:800px;
+}
+.proclass ul li a{
+	width:120px;
+}
+
 #gkTop2 div{
 	float:left;
 	
@@ -7,7 +14,7 @@
 	width: 300px; 
 	height: 500px;
 }
-.leftSide .zkBtn,.bmBtn,.xwBtn{
+.leftSide .zkBtn,.bmBtn,.xwBtn,.adBtn{
 	border:1px solid #808080;
 	margin:2px 0px 2px 0px;
 	width: 100%;
@@ -33,17 +40,19 @@
 
 .rightSide{
 	margin-left: 10px;
-	border:1px solid #808080; 
+	border:0px solid #808080; 
 	width: 784px; 
 }
 .rightSide .zkTitle,.bkTitle, .newsTitle, .zyjsTitle, .kctdTitle, .bmdzTitle, .kcjsTitle{
 	width: 100%;
-	border:0px solid #808080;
+	border:1px solid #808080;
 	border-bottom: 0px;
 	height: 40px;
 }
 .rightSide .zkList,.bkList,.newsList,.newsDetail,.zyjsDetail,.kctdDetail,.bmdzDetail,.kcjsDetail{
 	width: 100%;
+	border:1px solid #808080;
+	border-top: 0px;
 }
 .rightSide .listDiv{
 	width: 240px;
@@ -94,7 +103,7 @@
 }
 .rightSide .zyjsDetail .logoDiv{
 	width: 240px;
-	border: 1px solid #808080;
+	border-right: 1px solid #808080;
 	height: 200px;
 }
 
@@ -119,7 +128,7 @@
 	border: 0px solid #808080;
 	margin: 0px 3px 0px 3px;
 }
-.rightSide .ckList div{
+.rightSide .ckList div{	
 	width: 280px;
 	height: 225px;
 	border:1px solid #808080;
@@ -127,9 +136,107 @@
 	margin: 5px 0px 5px 0px; 
 }
 
+#gkTop1 .xxNameList{
+	float:left;
+	border:0px solid #808080;
+	height:225px;
+	width:280px;
+	margin:10px 0px 10px 60px;
+	background-image:url("../images/ck_bg.gif");
+}
+#gkTop1 .xxNameList table{
+	margin:5px auto;
+}
+#gkTop1 .xxNameList table .xxTitleTd{
+	font:'黑体'; 
+	font-size:24px; 
+	color:#000000; 
+	font-weight: 200;
+}
+#gkTop1 .xxNameList table .xxButnDiv{
+	background:url("../images/xiangxi_03.jpg") no-repeat; 
+	width:73px; 
+	text-align:center;
+	margin-left:165px;
+}
+.zkTitleBgImg{
+	background:url("../images/rmzk_title.jpg")  no-repeat;
+}
+.zkTitleBgImg div{
+	float: left;
+}
+.crxlBgImg{
+	background:url("../images/crxl_title.jpg")  no-repeat;
+}
+.crxlBgImg div{
+	float: left;
+}
+.ycxlBgImg{
+	background:url("../images/ycxl_title.jpg")  no-repeat;
+}
+.ycxlBgImg div{
+	float: left;
+}
+.xwzxBgImg{
+	background:url("../images/xwzx_title.jpg")  no-repeat;
+}
+.xwzxBgImg div{
+	float: left;
+}
+.zyjsBgImg{
+	background:url("../images/zyjs_title.jpg")  no-repeat;
+}
+.zyjsBgImg div{
+	float: left;
+}
+.wsbmBgImg{
+	background:url("../images/wsbm_title.jpg")  no-repeat;
+}
+.wsbmBgImg div{
+	float: left;
+}
+
+#wsbmTab{
+	margin-top: 10px;
+	width:98%;
+	margin-left:5px;
+}
+#wsbmTab tr{
+	height: 50px;
+	border-bottom:1px dotted #666666;
+	vertical-align:bottom;
+	background-color:#CCCCCC;
+}
+.bmxqTitle{
+	font:'宋体'; 
+	color:red;
+	width:98%; 
+	height:40px; 
+	border:1px solid #909090; 
+	margin:5px;
+	font-size:22px; 
+	font-weight:bold;
+	padding-left:2px;
+	background-color:#CCCCCC;
+}
 /* Common */
+.phoneDiv{
+	font:'宋体'; 
+	width:475px; 
+	height:40px; 
+	margin-left:250px; 
+	color:#FFFFFF; 
+	font-size:22px; 
+	font-weight:bold;
+}
+.moreDiv{
+	font:'宋体'; 
+	width:40px; 
+	height:20px; 
+	margin-top:10px;
+}
 .bgColor{
-	background:#f85921;
+	background-color:#f85921;
 }
 .cvipBg{
 	background-image:url("../images/zk_vip_bg.jpg");
@@ -149,4 +256,7 @@
 .autoCenter{
 	margin-left: auto; 
 	margin-right: auto;
+}
+.top_5{
+	margin-top:5px;
 }

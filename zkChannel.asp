@@ -9,19 +9,10 @@
 
 <body>
 	<!-- 头部操作菜单栏 -->
-	<!--#include file="common/top.asp" -->
-    
+	<!--#include file="common/xlTop.asp" -->
+	    
 	<!-- 广告标语区-start -->
-    <div id="gkHeader" class="clear clearfix autoCenter">
-		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1 autoCenter slideBox" style="margin:20px auto">
-			<ul class="items">
-				<li><a href="#" title="Simon1"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon2"><img src="images/demo.as2gk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon3"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon4"><img src="images/demo.as3ggk-is-228.jpg"></a></li>
-			</ul>
-		</div>
-    </div>
+    <!--#include file="common/ad.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
@@ -35,7 +26,10 @@
 					<!--#include file="common/left.asp" -->
 					<!-- right -->
 					<div class="rightSide">
-						<div class="zkTitle bgColor"><img src="images/rmzk_title.jpg"></div>
+						<div class="zkTitle bgColor zkTitleBgImg">
+							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+							<div class="moreDiv"><a href="">更多...</a></div>
+						</div>
 						<div class="zkList">
 							<div class="listDiv cvipBg">
 								<table style="" width="90%" cellpadding="1" cellspacing="1" border="1">
@@ -122,6 +116,9 @@
 								</table>
 							</div>
 						</div>
+						
+						<div style="width:100%; margin:5px auto; border:1px solid #808080;"><img src="images/wjbanner.jpg" width="784px"></div>
+						
 						<div class="bkTitle bgColor"><img src="images/rmbk_title.jpg"></div>
 						<div class="bkList">
 							<div class="listDiv cvipBg">

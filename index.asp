@@ -2,26 +2,17 @@
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>首页</title>
+		<title>慧源教育</title>
 		<!-- 头部公共操作类 -->
 		<!--#include file="common/header.asp" -->
 </head>
 
 <body>
 	<!-- 头部操作菜单栏 -->
-	<!--#include file="common/top.asp" -->
-    
-	<!-- 广告标语区-start -->
-    <div id="gkHeader" class="clear clearfix autoCenter">
-		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1 autoCenter slideBox" style="margin:20px auto">
-			<ul class="items">
-				<li><a href="#" title="Simon1"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon2"><img src="images/demo.as2gk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon3"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon4"><img src="images/demo.as3ggk-is-228.jpg"></a></li>
-			</ul>
-		</div>
-    </div>
+	<!--#include file="common/normalTop.asp" -->
+			
+    <!-- 广告标语区-start -->
+    <!--#include file="common/ad.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
@@ -66,13 +57,14 @@
 														<a class="plinkInfo" href=""><img src="images/T6.png" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l7.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T7.png" border="0"></a>
-													</li>
-													<li>
 														<a class="ilink" href=""><img src="images/l8.png" border="0"></a> 
 														<a class="plinkInfo" href=""><img src="images/T8.png" border="0"></a>
 													</li>
+													<li>
+														<a class="ilink" href=""><img src="images/l7.png" border="0"></a> 
+														<a class="plinkInfo" href=""><img src="images/T7.png" border="0"></a>
+													</li>
+													
 												</ul>
 											</div>
 										</div>

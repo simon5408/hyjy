@@ -9,19 +9,10 @@
 
 <body>
 	<!-- 头部操作菜单栏 -->
-	<!--#include file="common/top.asp" -->
+	<!--#include file="common/normalTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <div id="gkHeader" class="clear clearfix autoCenter">
-		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1 autoCenter slideBox" style="margin:20px auto">
-			<ul class="items">
-				<li><a href="#" title="Simon1"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon2"><img src="images/demo.as2gk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon3"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon4"><img src="images/demo.as3ggk-is-228.jpg"></a></li>
-			</ul>
-		</div>
-    </div>
+    <!--#include file="common/ad.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
@@ -35,7 +26,9 @@
 					<!--#include file="common/left.asp" -->
 					<!-- right -->
 					<div class="rightSide">
-						<div class="newsTitle bgColor"><img src="images/xwzx_title.jpg"></div>
+						<div class="newsTitle bgColor xwzxBgImg">
+							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+						</div>
 						<div class="newsDetail">
 							<p align="center" style="font:'黑体'; font-size:18px; font-weight:bold;">报考自考本科从认识自考开始</p>
 							<p>上海科本教育提醒你报考自学考试的学生，我们建议你前期认识自考，了解自考，要参加自学考试，首先就要对我国的高等教育自学考试制度有个初步的了解。 </p>

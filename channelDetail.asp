@@ -9,19 +9,10 @@
 
 <body>
 	<!-- 头部操作菜单栏 -->
-	<!--#include file="common/top.asp" -->
+	<!--#include file="common/xlTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <div id="gkHeader" class="clear clearfix autoCenter">
-		<div id="gkIs-gk-is-228" class="gkIsWrapper-gk_appsite1 autoCenter slideBox" style="margin:20px auto">
-			<ul class="items">
-				<li><a href="#" title="Simon1"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon2"><img src="images/demo.as2gk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon3"><img src="images/demo.a1edgk-is-228.jpg"></a></li>
-				<li><a href="#" title="Simon4"><img src="images/demo.as3ggk-is-228.jpg"></a></li>
-			</ul>
-		</div>
-    </div>
+    <!--#include file="common/ad.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
@@ -32,10 +23,12 @@
 				<!-- -->
 				<div id="gkTop2" class="gkMain clear">
 					<!-- left -->
-					<!--#include file="common/left.asp" -->
+					<!--#include file="common/zyLeft.asp" -->
 					<!-- right -->
 					<div class="rightSide">
-						<div class="zyjsTitle bgColor"><img src="images/zyjs_title.jpg"></div>
+						<div class="zyjsTitle bgColor zyjsBgImg">
+							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+						</div>
 						<div class="zyjsDetail">
 							<div class="logoDiv">238X164</div>
 							<div class="contentDiv">
@@ -51,14 +44,14 @@
 								</div>
 							</div>
 						</div>
-						<div class="kctdTitle bgColor"><img src="images/kctd_title.jpg"></div>
+						<div class="kctdTitle bgColor top_5"><img src="images/kctd_title.jpg"></div>
 						<div class="kctdDetail">
 							<p>本专业免试入学，考完本专业指定课程即可毕业。</p>
 <p>课程特点：本专业有高数（可以换其他的科目替换）、有英语。主要课程涉及，工程预算，规划，还有合同条款及工程监理。</p>
 <p>适应人群：在各类工程单位中高层技术人员再提升学历，或者第一学历非工程类的，考第二学历。以及要从事工程预算，监理，规划的各有志青年。</p>
 <p>可考相关证书：施工员，安全员。预算员，二级建造师等。</p>
 						</div>
-						<div class="bmdzTitle bgColor"><img src="images/bmdz_title.jpg"></div>
+						<div class="bmdzTitle bgColor top_5"><img src="images/bmdz_title.jpg"></div>
 						<div class="bmdzDetail">
 							<p>报名地址一：浦东XXXXXXX1365号（XXXXXXXXXXXXXX）XXXXXXX5栋22G室</p>
 <p>电话：021—1111111111 　手机：18111111111 　联系人：X老师</p>
@@ -66,7 +59,7 @@
 <p>报名地址二：上海市XXXXXXXXXXXXXXXXX43号东-68</p>
 <p>电话：021—22222222 　联系人：X老师</p>
 						</div>
-						<div class="kcjsTitle bgColor"><img src="images/kcjs_title.jpg"></div>
+						<div class="kcjsTitle bgColor top_5"><img src="images/kcjs_title.jpg"></div>
 						<div class="kcjsDetail">
 							<ul>
 								<li>03708中国近现代史纲要09470创业理论与实务</li>
@@ -81,7 +74,7 @@
 								<li>05963绩效管理</li>
 								<li>03305城市规划原理</li></ul>
 						</div>
-						<div class="kcjsTitle bgColor"><img src="images/ksap_title.jpg"></div>
+						<div class="kcjsTitle bgColor top_5"><img src="images/ksap_title.jpg"></div>
 						<div class="kcjsDetail">
 							<p>1.中国近现代史纲要<br />
 								《中国近现代史纲要》，王顺生，李捷主编，高等教育出版社（2008版）。</p>

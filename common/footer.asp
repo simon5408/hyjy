@@ -4,9 +4,9 @@
             	<div id="gkFooterNav">
 					<ul class="menu">
 						<li class="item-443"><a href="index.htm">首页</a></li>
-						<li class="item-475"><a href="">关于我们</a></li>
-						<li class="item-476"><a href="">在线定课</a></li>
-						<li class="item-487"><a href="">招生简章</a></li>
+						<li class="item-475"><a href="contactus.asp">关于我们</a></li>
+						<li class="item-476"><a href="">招生简章</a></li>
+						<li class="item-487"><a href="login.asp">管理登陆</a></li>
 					</ul>
             	</div>
             	<span> Copyright 2010-2014 版权所有：慧源自考教育咨询有限公司(www.gzhyedu.cn)</span>
@@ -39,7 +39,7 @@
 				direction : 'left',//left,top
 				duration : 0.3,//
 				easing : 'linear',//swing,linear
-				delay : 5,//
+				delay : 10,//
 				startIndex : 1,//
 				hideClickBar : false,//
 				hideBottomBar : true//
