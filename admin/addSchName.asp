@@ -20,7 +20,28 @@
 	<!-- attr css -->
 	<link rel="stylesheet" type="text/css" href="../css/manage/hyAttr.css">
 	
+	<!-- tinymce -->
+	<script type="text/javascript" src="../js/tinymce/tinymce.min.js"></script>
+	
 	<script language="javascript" type="text/javascript">
+		tinymce.init({
+			selector: "textarea",
+			theme: "modern",
+			plugins: [
+				"advlist autolink lists link image charmap print preview hr anchor pagebreak",
+				"searchreplace wordcount visualblocks visualchars code fullscreen",
+				"insertdatetime media nonbreaking save table contextmenu directionality",
+				"emoticons template paste textcolor moxiemanager"
+			],
+			toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+			toolbar2: "print preview media | forecolor backcolor emoticons",
+			image_advtab: true,
+			templates: [
+				{title: 'Test template 1', content: 'Test 1'},
+				{title: 'Test template 2', content: 'Test 2'}
+			]
+		});
+		
 		function doSbmit(){
 			var schName = $("#schName").val();
 			if($.trim(schName) == ""){
@@ -66,7 +87,7 @@
 	<div id="right">
 	<!-- 主体功能区(开始) -->
 	<form  name="addSchName" method="post" action="addSchNameAct.asp">
-	<div id="oprtDiv">
+	<div id="oprtDiv" style="width:80%">
 	<table class="trgTbl" width="100%" border="0" cellpadding="1" cellspacing="1" style="background:#f5f5f5">
 		<tr>
 			<th width="100" height="50" align="right">学校名称：</th>
@@ -96,12 +117,12 @@
 			</td>
 		</tr>
 		<tr>
-			<th width="100" height="50" align="right">学校简介：</th>
-			<td width="" align="left"><textarea cols="65" rows="8" id="schInfo" name="schInfo"></textarea></td>
+			<th width="100" align="right">学校简介：</th>
+			<td width="" align="left"><textarea id="schInfo" name="schInfo"></textarea></td>
 		</tr>
 	</table>
 	</div>
-	<div id="operateBtn">
+	<div id="operateBtn" style="width:80%">
 		<a href="javascript:void(0);" onclick="doSbmit()" class="easyui-linkbutton" icon="icon-save">保 存</a>
 		<a href="javascript:void(0);" onclick="window.location.reload();" class="easyui-linkbutton" icon="icon-reload">刷 新</a>
 	</div>

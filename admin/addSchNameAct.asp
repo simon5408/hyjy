@@ -1,7 +1,7 @@
 <!--#include file="conn.asp" -->
 <%
 schName = request.form("schName")
-schInfo = request.form("schInfo")
+schInfo = Replace(request.form("schInfo"), "'", "")
 eduId = request.form("eduId")
 eduname = request.form("eduname")
 
