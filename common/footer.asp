@@ -1,4 +1,4 @@
-	<div id="gkFooter" class="gkWrap">
+	<div id="gkFooter" class="gkWrap" style="border-top:1px solid #909090;">
 		<div id="gkFooterWrap">
       		<div id="gkCopyrights">
             	<div id="gkFooterNav">
@@ -44,7 +44,67 @@
 				hideClickBar : false,//
 				hideBottomBar : true//
 			});
+			
+			moveFun("tickerDiv");
+			moveFun("tickerDiv1");
 		});
+		
+		function moveFun(id){
+			//cache the tickerDiv
+			var tickerDiv = jQuery("#"+id);
+			
+			if(tickerDiv.children().filter("dt").size() < 6){
+				return;
+			}
+		  	
+			//wrap dt:dd pairs in divs
+			tickerDiv.children().filter("dt").each(function() {
+				var dt = jQuery(this), container = jQuery("<div>");
+		  
+		  		dt.next().appendTo(container);
+		  		dt.prependTo(container);
+		  
+		  		container.appendTo(tickerDiv);
+			});
+				
+			//hide the scrollbar
+			tickerDiv.css("overflow", "hidden");
+		
+			//animator function
+			function animator(currentItem) {
+		    
+		 		//work out new anim duration
+		  		var distance = currentItem.height();
+				duration = (distance + parseInt(currentItem.css("marginTop"))) / 0.02;
+
+		  		//animate the first child of the tickerDiv
+		  		currentItem.animate({ marginTop: -distance }, duration, "linear", function() {
+		    
+					//move current item to the bottom
+					currentItem.appendTo(currentItem.parent()).css("marginTop", 0);
+
+					//recurse
+					animator(currentItem.parent().children(":first"));
+		  		}); 
+			};
+		
+			//start the tickerDiv
+			animator(tickerDiv.children(":first"));
+				
+			//set mouseenter
+			tickerDiv.mouseenter(function() {
+		  		//stop current animation
+		  		tickerDiv.children().stop();
+			});
+		
+			//set mouseleave
+			tickerDiv.mouseleave(function() {
+          		//resume animation
+		  		animator(tickerDiv.children(":first"));
+			});
+			
+			
+		}
 	</script>
 
 	<div id="online_qq_layer">

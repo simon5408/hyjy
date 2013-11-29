@@ -8,17 +8,13 @@
 								<span style="padding-left:40px; font:'宋体'; color:#FFFFFF; font-size:18px; font-weight:bold">最新公告</span>
 								<span style="padding-left:140px; font:'宋体'; color:#FFFFFF; font-size:12px;"><a href="newsList.asp">更多...</a></span>
 							</div>
-							<div class="xwList">
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
-								<div><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></div>
+							<div class="xwList" id="tickerDiv">
+								<dt class="heading"><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></dt><dd></dd>
+								<dt class="heading"><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></dt><dd></dd>
+								<dt class="heading"><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></dt><dd></dd>
+								<dt class="heading"><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></dt><dd></dd>
+								<dt class="heading"><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></dt><dd></dd>
+								<dt class="heading"><a href="newsDetail.asp">&gt;&gt; 电子科技大学远程教育招生简介</a></dt><dd></dd>
 							</div>
 						</div>
 						<!-- AD1 -->
@@ -30,3 +26,5 @@
 							<img src="../images/xueli.jpg" width="300" height="150" />
 						</div>
 					</div>
+					
+					
