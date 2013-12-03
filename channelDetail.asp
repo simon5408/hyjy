@@ -12,12 +12,12 @@
 	<!--#include file="common/xlTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <!--#include file="common/ad.asp" -->
+    <!--include file="common/ad.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
-		    <div id="mainContent" class="clear">
+		    <div id="mainContent">
 				<div id="system-message-container"></div>
 				
 				<!-- -->
@@ -38,8 +38,8 @@
 								<div class="xxDiv"><span>考核发证:</span> 主考院校和各省属高等教育自学考试委员会共同颁发</div>
 								<div class="xxDiv"><span>毕业保障:</span> 协议确保，未按时毕业，退还学费</div>
 								<div class="btnDivs xxDiv">
-									<div><img src="images/baoming.jpg" /></div>
-									<div><img src="images/zhixun.jpg" /></div>
+									<div><a href="zxzcDetail.asp"><img src="images/baoming.jpg" /></a></div>
+									<div><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/zhixun.jpg" /></a></div>
 									<div><img src="images/vip_xiangqing.jpg" /></div>
 								</div>
 							</div>
@@ -47,17 +47,16 @@
 						<div class="kctdTitle bgColor top_5"><img src="images/kctd_title.jpg"></div>
 						<div class="kctdDetail">
 							<p>本专业免试入学，考完本专业指定课程即可毕业。</p>
-<p>课程特点：本专业有高数（可以换其他的科目替换）、有英语。主要课程涉及，工程预算，规划，还有合同条款及工程监理。</p>
-<p>适应人群：在各类工程单位中高层技术人员再提升学历，或者第一学历非工程类的，考第二学历。以及要从事工程预算，监理，规划的各有志青年。</p>
-<p>可考相关证书：施工员，安全员。预算员，二级建造师等。</p>
+							<p>课程特点：本专业有高数（可以换其他的科目替换）、有英语。主要课程涉及，工程预算，规划，还有合同条款及工程监理。</p>
+							<p>适应人群：在各类工程单位中高层技术人员再提升学历，或者第一学历非工程类的，考第二学历。以及要从事工程预算，监理，规划的各有志青年。</p>
+							<p>可考相关证书：施工员，安全员。预算员，二级建造师等。</p>
 						</div>
 						<div class="bmdzTitle bgColor top_5"><img src="images/bmdz_title.jpg"></div>
 						<div class="bmdzDetail">
 							<p>报名地址一：浦东XXXXXXX1365号（XXXXXXXXXXXXXX）XXXXXXX5栋22G室</p>
-<p>电话：021—1111111111 　手机：18111111111 　联系人：X老师</p>
-
-<p>报名地址二：上海市XXXXXXXXXXXXXXXXX43号东-68</p>
-<p>电话：021—22222222 　联系人：X老师</p>
+							<p>电话：021—1111111111 　手机：18111111111 　联系人：X老师</p>
+							<p>报名地址二：上海市XXXXXXXXXXXXXXXXX43号东-68</p>
+							<p>电话：021—22222222 　联系人：X老师</p>
 						</div>
 						<div class="kcjsTitle bgColor top_5"><img src="images/kcjs_title.jpg"></div>
 						<div class="kcjsDetail">
@@ -78,23 +77,23 @@
 						<div class="kcjsDetail">
 							<p>1.中国近现代史纲要<br />
 								《中国近现代史纲要》，王顺生，李捷主编，高等教育出版社（2008版）。</p>
-<p>2.马克思主义基本原理概论<br />
-《马克思主义基本原理概论》，卫兴华，赵家祥主编，北京大学出版社（2008版）。</p>
-<p>3．英语（二）<br />
-《大学英语自学教程》（上、下册），高远主编，高等教育出版社。</p>
-<p>4. 创业理论与实务<br />
-《创业理论与实务》，迟英庆等主编，江西人民出版社。</p>
-<p>5.财经应用写作<br />
-《财经应用写作》，傅家柏主编，江西人民出版社。</p>
-<p>6. 概率论与数理统计<br />
-《概率论与数理统计（经管类）》，柳金甫、王义乐主编，武汉大学出版社（2006版）。</p>
-<p>7. 线性代数（经管类）<br />
-《线性代数（经管类）》，刘吉佑、徐诚浩主编，武汉大学出版社（2006版）。</p>
-<p>8. 管理信息系统<br />
-《管理信息系统》，杨一年主编，经济科学出版社（2007版）。</p>
+							<p>2.马克思主义基本原理概论<br />
+							《马克思主义基本原理概论》，卫兴华，赵家祥主编，北京大学出版社（2008版）。</p>
+							<p>3．英语（二）<br />
+							《大学英语自学教程》（上、下册），高远主编，高等教育出版社。</p>
+							<p>4. 创业理论与实务<br />
+							《创业理论与实务》，迟英庆等主编，江西人民出版社。</p>
+							<p>5.财经应用写作<br />
+							《财经应用写作》，傅家柏主编，江西人民出版社。</p>
+							<p>6. 概率论与数理统计<br />
+							《概率论与数理统计（经管类）》，柳金甫、王义乐主编，武汉大学出版社（2006版）。</p>
+							<p>7. 线性代数（经管类）<br />
+							《线性代数（经管类）》，刘吉佑、徐诚浩主编，武汉大学出版社（2006版）。</p>
+							<p>8. 管理信息系统<br />
+							《管理信息系统》，杨一年主编，经济科学出版社（2007版）。</p>
 						</div>
 					</div>
-					
+					<!-- -->
 				</div>
 			</div>
 		</div>

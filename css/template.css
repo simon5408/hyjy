@@ -119,11 +119,14 @@ background: url('images/headbg.png') repeat-x;
 
 #gkHeader .box {
 	margin: 0 auto !important;
-background-color:#0056A3;
+	background-color:#0056A3;
 }
 
 #gkPage {
 	margin-bottom: 32px;
+	min-height:730px;
+}
+#gkPage1 {
 }
 
 #gkMain {
@@ -131,7 +134,8 @@ background-color:#0056A3;
 }
 
 #mainContent {
-	padding-bottom: 48px;
+	padding-bottom: 8px;
+	height:520px;
 }
 
 #gkMain {
