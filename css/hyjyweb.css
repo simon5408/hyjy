@@ -222,6 +222,30 @@
 .yjsBgImg div{
 	float: left;
 }
+.zlxzBgImg{
+	background:url("../images/zlxz_title.jpg")  no-repeat;
+}
+.zlxzBgImg div{
+	float: left;
+}
+.ggzxBgImg{
+	background:url("../images/ggzx_title.jpg")  no-repeat;
+}
+.ggzxBgImg div{
+	float: left;
+}
+.zyzsBgImg{
+	background:url("../images/zyzs_title.jpg")  no-repeat;
+}
+.zyzsBgImg div{
+	float: left;
+}
+.zyjyBgImg{
+	background:url("../images/zyjy_title.jpg")  no-repeat;
+}
+.zyjyBgImg div{
+	float: left;
+}
 
 #wsbmTab{
 	margin-top: 10px;

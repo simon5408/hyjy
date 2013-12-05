@@ -26,36 +26,36 @@
 											<div id="wrap">
 												<ul id="work">
 													<li>
-														<a class="ilink" href=""><img src="images/l1.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T1.png" border="0"></a>
+														<a class="ilink" href="http://www.chsi.com.cn/xlcx/lscx.jsp" target="_blank"><img src="images/cjcx/gdjy.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://www.chsi.com.cn/xlcx/lscx.jsp" target="_blank"><img src="images/cjcx/gdjy.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l2.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T2.png" border="0"></a>
+														<a class="ilink" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l3.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T3.png" border="0"></a>
+														<a class="ilink" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l4.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T4.png" border="0"></a>
+														<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l5.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T5.png" border="0"></a>
+														<a class="ilink" href="http://eea.jxedu.gov.cn/ksycrgk/" target="_blank"><img src="images/cjcx/jxcr.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://eea.jxedu.gov.cn/ksycrgk/" target="_blank"><img src="images/cjcx/jxcr.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l6.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T6.png" border="0"></a>
+														<a class="ilink" href="http://eea.jxedu.gov.cn/ksyzxks/" target="_blank"><img src="images/cjcx/jxzx.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://eea.jxedu.gov.cn/ksyzxks/" target="_blank"><img src="images/cjcx/jxzx.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l7.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T7.png" border="0"></a>
+														<a class="ilink" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a>
 													</li>
 													<li>
-														<a class="ilink" href=""><img src="images/l8.png" border="0"></a> 
-														<a class="plinkInfo" href=""><img src="images/T8.png" border="0"></a>
+														<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj.jpg" border="0"></a> 
+														<a class="plinkInfo" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj.jpg" border="0"></a>
 													</li>
 												</ul>
 											</div>

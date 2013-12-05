@@ -1,3 +1,4 @@
+<!--#include file="conn.asp" -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,8 +18,7 @@
 	
 	<div id="gkPage">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
-		    <div id="mainContent" class="clear">
-				<div id="system-message-container"></div>
+		    <div id="mainContent" class="clear" style="border:0px solid red; min-height:850px">
 				
 				<!-- -->
 				<div id="gkTop2" class="gkMain clear">

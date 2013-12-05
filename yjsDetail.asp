@@ -23,15 +23,17 @@
 				<!-- -->
 				<div id="gkTop2" class="gkMain clear">
 					<!-- right -->
-					<div class="rightSide" style="width:99%;">
+					<div class="rightSide" style="width:100%;">
+						<!--
 						<div class="newsTitle bgColor yjsBgImg">
 							<div class="phoneDiv">¹Ù·½×ÉÑ¯µç»°£º400-6565-800</div>
 						</div>
-						<div class="newsDetail">
-							<p align="center"><img src="images/04.jpg" width="1000" height="348"></p>
-							<p align="center"><img src="images/04.jpg" width="1000" height="348"></p>
-							<p align="center"><img src="images/04.jpg" width="1000" height="348"></p>
-							<p align="center"><img src="images/04.jpg" width="1000" height="348"></p>
+						-->
+						<div style="border:0px solid red;">
+							<p align="center"><img src="images/04.jpg" width="1080" height="348"></p>
+							<p align="center"><img src="images/04.jpg" width="1080" height="348"></p>
+							<p align="center"><img src="images/04.jpg" width="1080" height="348"></p>
+							<p align="center"><img src="images/04.jpg" width="1080" height="348"></p>
 						</div>
 					</div>
 					

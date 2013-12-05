@@ -24,39 +24,39 @@
 				<div id="gkToptop1" class="gkCol gkColFull">
 					<ul id="work">
 						<li>
-							<a class="ilink" href=""><img src="images/l1.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T1.png" border="0"></a>
+							<a class="ilink" href="zkChannel.asp"><img src="images/l1.png" border="0"></a> 
+							<a class="plinkInfo" href="zkChannel.asp"><img src="images/T1.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l2.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T2.png" border="0"></a>
+							<a class="ilink" href="crxlList.asp"><img src="images/l2.png" border="0"></a> 
+							<a class="plinkInfo" href="crxlList.asp"><img src="images/T2.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l3.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T3.png" border="0"></a>
+							<a class="ilink" href="ycxlList.asp"><img src="images/l3.png" border="0"></a> 
+							<a class="plinkInfo" href="ycxlList.asp"><img src="images/T3.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l4.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T4.png" border="0"></a>
+							<a class="ilink" href="yjsDetail.asp"><img src="images/l4.png" border="0"></a> 
+							<a class="plinkInfo" href="yjsDetail.asp"><img src="images/T4.png" border="0"></a>
 						</li>
 						<li style="width: 100px;">
-							<a href=""><img src="images/l9.png" border="0"></a>
+							<a href="contactus.asp"><img src="images/l9.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l5.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T5.png" border="0"></a>
+							<a class="ilink" href="zsChannel.asp"><img src="images/l5.png" border="0"></a> 
+							<a class="plinkInfo" href="zsChannel.asp"><img src="images/T5.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l6.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T6.png" border="0"></a>
+							<a class="ilink" href="zyChannel.asp"><img src="images/l6.png" border="0"></a> 
+							<a class="plinkInfo" href="zyChannel.asp"><img src="images/T6.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l8.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T8.png" border="0"></a>
+							<a class="ilink" href="cjcxList.asp"><img src="images/l8.png" border="0"></a> 
+							<a class="plinkInfo" href="cjcxList.asp"><img src="images/T8.png" border="0"></a>
 						</li>
 						<li>
-							<a class="ilink" href=""><img src="images/l7.png" border="0"></a> 
-							<a class="plinkInfo" href=""><img src="images/T7.png" border="0"></a>
+							<a class="ilink" href="downloadList.asp"><img src="images/l7.png" border="0"></a> 
+							<a class="plinkInfo" href="downloadList.asp"><img src="images/T7.png" border="0"></a>
 						</li>
 					</ul>
 				</div>

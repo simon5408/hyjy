@@ -18,7 +18,7 @@
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>index</title>
+		<title>新闻资讯</title>
 <!-- 头部公共操作类 -->
 		<!--#include file="common/header.asp" -->
 </head>
@@ -67,6 +67,10 @@
 			</div>
 		</div>
 	</div>
+	<%
+		conn.close
+		set conn=nothing
+	%>
 <!-- 底部操作菜单栏 -->
 	<!--#include file="common/footer.asp" -->
 

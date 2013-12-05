@@ -16,7 +16,7 @@
 					<li><a href="yjsDetail.asp"><img src="images/top/suoshi.png" border="0"><br />硕士研究生</a></li>
 					<li><a href="zsChannel.asp"><img src="images/top/zhuanyezhengshu.png" border="0"><br />专业证书</a></li>
 					<li><a href="zyChannel.asp"><img src="images/top/zhiyejiaoyu.png" border="0"><br />职业教育</a></li>
-					<!--<li><a href="newsList.asp"><img src="images/zlxz.jpg" border="0">资料下载</a></li>-->
+					<li><a href="downloadList.asp"><img src="images/top/ziliaoxiazai.png" border="0"><br />资料下载</a></li>
 					<li><a href="cjcxList.asp"><img src="images/top/chengjichaxun.png" border="0"><br />成绩查询</a></li>
 					<li><a href="contactus.asp"><img src="images/top/liaojiehuiyuan.png" border="0"><br />了解慧源</a></li>
 				</ul>

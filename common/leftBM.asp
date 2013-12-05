@@ -1,0 +1,1 @@
+<div class="bmBtn" style="height:59px; background:#f0f0f0; text-align:center"><a href="zxzcDetail.asp" target="_blank"><img src="images/bm.png" style="margin-top:5px;"></a></div>

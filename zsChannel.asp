@@ -18,16 +18,14 @@
 	
 	<div id="gkPage">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
-		    <div id="mainContent" class="clear">
-				<div id="system-message-container"></div>
-				
+		    <div id="mainContent" class="clear" style="border:0px solid red; min-height:800px">				
 				<!-- -->
 				<div id="gkTop2" class="gkMain clear">
 					<!-- left -->
-					<!--#include file="common/left.asp" -->
+					<!--#include file="common/xlLeft.asp" -->
 					<!-- right -->
 					<div class="rightSide">
-						<div class="zkTitle bgColor zkTitleBgImg">
+						<div class="zkTitle bgColor zyzsBgImg">
 							<div class="phoneDiv">¹Ù·½×ÉÑ¯µç»°£º400-6565-800</div>
 							<div class="moreDiv"><a href=""></a></div>
 						</div>

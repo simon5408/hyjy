@@ -1,7 +1,7 @@
 					<div class="leftSide">
 						<!--<div class="zkBtn" style="height:59px; background-image:url(../images/chaxun_bg.png); text-align:center"><img src="../images/chaxun.jpg"></div>-->
 						<!-- BM -->
-						<div class="bmBtn" style="height:59px; background-image:url(../images/wsbm_bg.png); text-align:center"><a href="zxzcDetail.asp"><img src="../images/wsbm.jpg"></a></div>
+						<!--#include file="leftBM.asp" -->
 						<!-- ZKZY -->
 						<div class="xwBtn">
 							<div class="xwTitle" style="height:35px; background-image:url(../images/title_bg.jpg);">
@@ -33,4 +33,8 @@
 						<!-- 广告标语区-start -->
 						<!--#include file="leftAD.asp" -->
 						<!-- 广告标语区-end -->
+						
+						<!-- 报名咨询中心-start -->
+						<!--#include file="leftDZ.asp" -->
+						<!-- 报名咨询中心-end -->
 					</div>
