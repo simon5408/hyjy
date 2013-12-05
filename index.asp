@@ -127,7 +127,10 @@
 			</div>
 		</div>
 	</div>
-
+	<%
+		conn.close
+		set conn=nothing
+	%>
 	<!-- µ×²¿²Ù×÷²Ëµ¥À¸ -->
 	<!--#include file="common/footer.asp" -->
 </body>

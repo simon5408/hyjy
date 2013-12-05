@@ -14,7 +14,7 @@ zk_kcjs = Replace(request.form("zkKcjs"), "'", "")
 zk_kcap = Replace(request.form("zkKcap"), "'", "")
 zk_date =  now()
 
-exec="insert into zk_info (zk_type, zk_level, zk_name, zk_zyjj, zk_price, zk_time, zk_khfz, zk_bybz, zk_kctd, zk_bmdz, zk_kcjs, zk_kcap, zk_date) values("&zk_type&","&zk_level&",'"&zk_name&"','"&zk_zyjj&"','"&zk_price&"','"&zk_time&"','"&zk_khfz&"','"&zk_bybz&"','"&zk_kctd&"','"&zk_bmdz&"','"&zk_kcjs&"','"&zk_kcap&"','"&zk_date&"')"
+exec="insert into zkxl_info (zk_type, zk_level, zk_name, zk_zyjj, zk_price, zk_time, zk_khfz, zk_bybz, zk_kctd, zk_bmdz, zk_kcjs, zk_kcap, zk_date) values("&zk_type&","&zk_level&",'"&zk_name&"','"&zk_zyjj&"','"&zk_price&"','"&zk_time&"','"&zk_khfz&"','"&zk_bybz&"','"&zk_kctd&"','"&zk_bmdz&"','"&zk_kcjs&"','"&zk_kcap&"','"&zk_date&"')"
 conn.execute exec
 conn.close
 set conn=nothing

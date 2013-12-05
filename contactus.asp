@@ -3,7 +3,7 @@
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>index</title>
+		<title>慧源教育-了解慧源</title>
 <!-- 头部公共操作类 -->
 		<!--#include file="common/header.asp" -->
 </head>
@@ -18,7 +18,7 @@
 	
 	<div id="gkPage">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
-		    <div id="mainContent" class="clear" style="border:0px solid red; min-height:850px">
+		    <div id="mainContent" style="border:0px solid red; min-height:1000px">
 				
 				<!-- -->
 				<div id="gkTop2" class="gkMain clear">

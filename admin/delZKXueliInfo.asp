@@ -1,6 +1,6 @@
 <!--#include file="conn.asp" -->
 <%
-	conn.execute ("delete * from zk_info where zk_id = "&request.querystring("zkId"))
+	conn.execute ("delete * from zkxl_info where zk_id = "&request.querystring("zkId"))
 	conn.close
 	set conn=nothing
 	

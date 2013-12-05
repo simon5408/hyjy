@@ -1,3 +1,4 @@
+<!--#include file="conn.asp" -->
 <%
 	typeId = request.querystring("type")
 	newsName = ""

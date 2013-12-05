@@ -1,3 +1,4 @@
+<!--#include file="conn.asp" -->
 <%
 	Idx = Request.QueryString("crId")
 	exec="select * from crxl_info where (cr_id="&Idx&")"

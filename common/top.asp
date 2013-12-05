@@ -1,3 +1,4 @@
+			<!--#include file="filterHTML.asp" -->
 			<h1 id="gkLogo">
 				  <a href="index.htm" class="cssLogo"></a>
 				  <span>therealdesign</span>

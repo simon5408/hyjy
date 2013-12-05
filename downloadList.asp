@@ -19,8 +19,7 @@
 	
 	<div id="gkPage">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
-		    <div id="mainContent" class="clear">
-				<div id="system-message-container"></div>
+		    <div id="mainContent" style="border:0px solid red; min-height:1000px">
 				
 				<!-- -->
 				<div id="gkTop2" class="gkMain clear">

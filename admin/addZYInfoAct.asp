@@ -13,9 +13,9 @@ zy_bmzx = Replace(request.form("zyBmzx"), "'", "")
 zy_bmxz = Replace(request.form("zyBmxz"), "'", "")
 zy_date =  now()
 
-exec="insert into zy_info (zy_type, zy_name, zy_info, zy_xzfs, zy_skfs, zy_kcsz, zy_bdtj, yc_bfzs, zy_jxdd, zy_bmzx, zy_bmxz, zy_date) values("&zy_type&",'"&zy_name&"','"&zy_info&"','"&zy_xzfs&"','"&zy_skfs&"','"&zy_kcsz&"','"&zy_bdtj&"','"&yc_bfzs&"','"&zy_jxdd&"','"&zy_bmzx&"','"&zy_bmxz&"','"&zy_date&"')"
+exec="insert into zy_info (zy_type, zy_name, zy_info, zy_xzfs, zy_skfs, zy_kcsz, zy_bdtj, zy_bfzs, zy_jxdd, zy_bmzx, zy_bmxz, zy_date) values("&zy_type&",'"&zy_name&"','"&zy_info&"','"&zy_xzfs&"','"&zy_skfs&"','"&zy_kcsz&"','"&zy_bdtj&"','"&zy_bfzs&"','"&zy_jxdd&"','"&zy_bmzx&"','"&zy_bmxz&"','"&zy_date&"')"
 conn.execute exec
 conn.close
 set conn=nothing
-response.write("<script language=javascript>alert('添加成功!');window.location.href='addZYInfo.asp';</script>")
+response.write("<script language=javascript>alert('添加成功!');window.location.href='adminConsole.asp';</script>")
 %>

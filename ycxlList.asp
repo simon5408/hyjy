@@ -20,7 +20,7 @@
 		    <div id="mainContent" class="clear">
 				
 				<!-- -->
-				<div id="gkTop1" class="gkMain clear" style="border:1px solid #909090; border-bottom:0px;">
+				<div id="gkTop1" class="gkMain">
 					<div class="newsTitle bgColor ycxlBgImg">
 						<div class="phoneDiv" style="width:785px;">官方咨询电话：400-6565-800</div>
 						<div class="moreDiv"><a href=""></a></div>
@@ -36,28 +36,74 @@
 						exit for
 						end if
 					%>
-					<div class="xxNameList">
-						<table cellpadding="0" cellspacing="0" border="0" width="90%">
-							<tr>
-								<td class="xxTitleTd"><%=rs1("xschool_name")%></td>
-							</tr>
-							<tr>
-								<td><%=left(rs1("xschool_summ"), 70)%>...</td>
-							</tr>
-							<tr>
-								<td><div class="xxButnDiv"><a href="xueliDetail.asp?xschoolId=<%=rs1("xschool_id")%>&type=2">详细信息</a></div></td>
-							</tr>
-						</table>
-					</div>
+					
 					<% 
 						rs1.movenext
 						next 
 					%>
 					
+					<div class="zsDiv">
+						<div class="zyBgDiv">Title</div>
+						<div class="zyItem">
+							<div class="zyContent" style="height:240px;">ssdsd</div>
+							<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b>111</div>
+							<div class="zyContent" style="height:25px;"><b>授课方式：</b>111</div>
+							<div class="zyContent" style="height:49px;"><b>报读条件：</b>1111</div>
+							<div class="zyContent" style="height:49px;"><b>报名中心：</b>sss</div>
+							<div class="zyContent"  style="height:35px;border:0;">
+								<span class="detailSpan"><a href="zyDetail.asp?zyId="><img src="images/detail_btn.gif" /></a></span>
+								<span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="zsDiv">
+						<div class="zyBgDiv">Title</div>
+						<div class="zyItem">
+							<div class="zyContent" style="height:240px;">ssdsd</div>
+							<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b>111</div>
+							<div class="zyContent" style="height:25px;"><b>授课方式：</b>111</div>
+							<div class="zyContent" style="height:49px;"><b>报读条件：</b>1111</div>
+							<div class="zyContent" style="height:49px;"><b>报名中心：</b>sss</div>
+							<div class="zyContent" style="height:35px;border:0;">
+								<span class="detailSpan"><a href="zyDetail.asp?zyId="><img src="images/detail_btn.gif" /></a></span>
+								<span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="zsDiv">
+						<div class="zyBgDiv">Title</div>
+						<div class="zyItem">
+							<div class="zyContent" style="height:240px;">ssdsd</div>
+							<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b>111</div>
+							<div class="zyContent" style="height:25px;"><b>授课方式：</b>111</div>
+							<div class="zyContent" style="height:49px;"><b>报读条件：</b>1111</div>
+							<div class="zyContent" style="height:49px;"><b>报名中心：</b>sss</div>
+							<div class="zyContent"  style="height:35px;border:0;">
+								<span class="detailSpan"><a href="zyDetail.asp?zyId="><img src="images/detail_btn.gif" /></a></span>
+								<span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span>
+							</div>
+						</div>
+					</div>
+					
+					<div class="zsDiv">
+						<div class="zyBgDiv">Title</div>
+						<div class="zyItem">
+							<div class="zyContent" style="height:240px;">ssdsd</div>
+							<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b>111</div>
+							<div class="zyContent" style="height:25px;"><b>授课方式：</b>111</div>
+							<div class="zyContent" style="height:49px;"><b>报读条件：</b>1111</div>
+							<div class="zyContent" style="height:49px;"><b>报名中心：</b>sss</div>
+							<div class="zyContent"  style="height:35px;border:0;">
+								<span class="detailSpan"><a href="zyDetail.asp?zyId="><img src="images/detail_btn.gif" /></a></span>
+								<span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span>
+							</div>
+						</div>
+					</div>
+					
 				</div>
-				<div id="gkTop1" class="gkMain clear" style="border:1px solid #909090;">
-					<div style="text-align:center"><img src="images/wjbanner.jpg" width="1100"></div>
-				</div>
+				
 			</div>
 		</div>
 	</div>

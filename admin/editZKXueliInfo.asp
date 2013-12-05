@@ -1,3 +1,4 @@
+<!--#include file="conn.asp" -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -56,7 +57,7 @@
 	session("typeName") = "±à¼­×Ô¿¼Ñ§Àú"
 	
 	Idx = Request.QueryString("zkId")
-	exec="select * from zk_info where (zk_id="&Idx&")"
+	exec="select * from zkxl_info where (zk_id="&Idx&")"
 	set rs=server.createobject("adodb.recordset")
 	rs.open exec,conn,1,1 
 %>

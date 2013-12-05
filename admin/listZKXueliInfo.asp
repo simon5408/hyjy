@@ -1,4 +1,41 @@
 <!--#include file="conn.asp" -->
+<%
+	zkName = request.querystring("zkName")
+		session("zkName") = zkName
+		
+		zkType = request.querystring("zkType")
+		if zkType = "" or zkType="-99" then
+			zkType = -99
+		end if
+		session("zkType") = zkType
+		
+		zkLevel = request.querystring("zkLevel")
+		if zkLevel = "" or zkLevel="-99" then
+			zkLevel = -99
+		end if
+		session("zkLevel") = zkLevel
+		
+		sql= "select * from zkxl_info where 1=1 "
+		
+		if zkName <> "" then
+			sql =sql + " and zk_name like '%"&zkName&"%' "
+		end if
+		
+		if zkType <> -99 then
+			sql =sql + " and zk_type ="&zkType&" "
+		end if
+		
+		if zkLevel <> -99 then
+			sql =sql + " and zk_level ="&zkLevel&" "
+		end if
+		
+		sql =sql + " order by zk_date desc "
+		
+		exec=sql
+		set rs=server.createobject("adodb.recordset")
+		rs.open exec,conn,1,1 
+%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -46,40 +83,7 @@
 			Set objRegExp = Nothing 
 		End Function
 				
-		zkName = request.querystring("zkName")
-		session("zkName") = zkName
 		
-		zkType = request.querystring("zkType")
-		if zkType = "" then
-			zkType = -99
-		end if
-		session("zkType") = zkType
-		
-		zkLevel = request.querystring("zkLevel")
-		if zkLevel = "" then
-			zkLevel = -99
-		end if
-		session("zkLevel") = zkLevel
-		
-		sql= "select * from zk_info where 1=1 "
-		
-		if zkName <> "" then
-			sql =sql + " and zk_name like '%"&zkName&"%' "
-		end if
-		
-		if zkType <> -99 then
-			sql =sql + " and zk_type ="&zkType&" "
-		end if
-		
-		if zkLevel <> -99 then
-			sql =sql + " and zk_level ="&zkLevel&" "
-		end if
-		
-		sql =sql + " order by zk_date desc "
-		
-		exec=sql
-		set rs=server.createobject("adodb.recordset")
-		rs.open exec,conn,1,1 
 %>
 	<!-- 头部操作菜单栏 -->
 	<!--#include file="top.asp" -->
@@ -96,8 +100,6 @@
 		<tr>
 			<td style="font-family:'幼圆', Helvetica, sans-serif;">专业名称：</td>
 			<td><input type="text" name="zyName" id="zyName" value="<%=session("zyName")%>"></td>
-		</tr>
-		<tr>
 			<td style="font-family:'幼圆', Helvetica, sans-serif;">专业类别：</td>
 			<td>
 				<select name="zkType" id="zkType">
@@ -106,11 +108,9 @@
 					<option value="2" <% if session("zkType") = 2 then%>selected<%end if%>>本科</option>
 				</select>
 			</td>
-		</tr>
-		<tr>
 			<td style="font-family:'幼圆', Helvetica, sans-serif;">专业类型：</td>
 			<td>
-				<select name="zkLevel" id="zkLevel" style="width:355px">
+				<select name="zkLevel" id="zkLevel">
 					<option value="-99">-不限-</option>
 					<option value="0" <% if session("zkLevel") = 0 then%>selected<%end if%>>普通</option>
 					<option value="1" <% if session("zkLevel") = 1 then%>selected<%end if%>>VIP</option>
@@ -167,7 +167,7 @@
 			<td><%=rs("zk_name")%></td>
 			<td><%=zkTypeName%></td>
 			<td><%=zkLevelName%></td>
-			<td><%=left(RemoveHTML(rs("zkZyjj")), 40)%>...</td>
+			<td><%=left(RemoveHTML(rs("zk_zyjj")), 40)%>...</td>
 			<td><%=rs("zk_price")%></td>
 			<td><%=rs("zk_time")%></td>			
 			<td><%=rs("zk_khfz")%></td>
