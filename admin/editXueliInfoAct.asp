@@ -11,5 +11,5 @@ exec="update xueli_school set xschool_name='"&xschoolName&"',xschool_summ='"&xsc
 conn.execute exec
 conn.close
 set conn=nothing
-response.write("<script language=javascript>alert('编辑成功!');window.location.href='listXueliInfo.asp?type='"&typeId&";</script>")
+response.write("<script language=javascript>alert('编辑成功!');window.location.href='listXueliInfo.asp?type="&typeId&"';</script>")
 %>

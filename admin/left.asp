@@ -4,49 +4,61 @@
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="addXueliInfo.asp?type=1">新增成人学历</a>
+					<a href="addZKXueliInfo.asp">新增自考学历</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="listXueliInfo.asp?type=1">管理成人学历</a>
+					<a href="listZKXueliInfo.asp">管理自考学历</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="addXueliInfo.asp?type=2">新增远程学历</a>
+					<a href="addCRXueliInfo.asp">新增成人学历</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="listXueliInfo.asp?type=2">管理远程学历</a>
+					<a href="listCRXueliInfo.asp">管理成人学历</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="addSchName.asp">新增学校名称</a>
+					<a href="addYCXueliInfo.asp">新增远程学历</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="listSchName.asp">管理学校名称</a>
+					<a href="listYCXueliInfo.asp">管理远程学历</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="addSpecName.asp">新增专业名称</a>
+					<a href="addZYInfo.asp?type=1">新增专业证书</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="listSpecName.asp">管理专业名称</a>
+					<a href="listZYInfo.asp?type=1">管理专业证书</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
+					<a href="addZYInfo.asp?type=2">新增职业教育</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
+					<a href="listZYInfo.asp?type=2">管理职业教育</a>
 				</td>
 			</tr>
 			<tr>

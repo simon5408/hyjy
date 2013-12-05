@@ -27,7 +27,7 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="zyjsTitle bgColor zyjsBgImg">
-							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+							<div class="phoneDiv">自考一年取证 官方咨询电话：400-6565-800</div>
 						</div>
 						<div class="zyjsDetail">
 							<div class="logoDiv">238X164</div>
@@ -38,7 +38,7 @@
 								<div class="xxDiv"><span>考核发证:</span> 主考院校和各省属高等教育自学考试委员会共同颁发</div>
 								<div class="xxDiv"><span>毕业保障:</span> 协议确保，未按时毕业，退还学费</div>
 								<div class="btnDivs xxDiv">
-									<div><a href="zxzcDetail.asp"><img src="images/baoming.jpg" /></a></div>
+									<div><a href="zxzcDetail.asp" target="_blank"><img src="images/baoming.jpg" /></a></div>
 									<div><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/zhixun.jpg" /></a></div>
 									<div><img src="images/vip_xiangqing.jpg" /></div>
 								</div>
