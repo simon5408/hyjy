@@ -9,6 +9,10 @@
 							</div>
 							<div class="xwList1">
 								<%
+									if zyType = "" then
+										zyType=request.querystring("zyType")
+									end if
+									
 									exec11="select * from zy_info where zy_type="&zyType
 									set rs11=server.createobject("adodb.recordset")
 									rs11.open exec11,conn,1,1
@@ -23,7 +27,7 @@
 									end if 
 									
 								%>
-								<div><a href="zyDetail.asp?zyId=<%=rs11("zy_id")%>" title="<%=rs11("zy_name")%>"><%=zyName%></a></div>
+								<div><a href="zyDetail.asp?zyId=<%=rs11("zy_id")%>&zyType=<%=zyType%>" title="<%=rs11("zy_name")%>"><%=zyName%></a></div>
 								<% 
 									rs11.movenext
 									next 

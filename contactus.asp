@@ -51,7 +51,11 @@
 			</div>
 		</div>
 	</div>
-<!-- 底部操作菜单栏 -->
+	<%
+		conn.close
+		set conn=nothing
+	%>
+	<!-- 底部操作菜单栏 -->
 	<!--#include file="common/footer.asp" -->
 
 </body>

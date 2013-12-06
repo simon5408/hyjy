@@ -58,7 +58,7 @@
 									<div class="zyContent" style="height:25px;"><b>授课方式：</b><%=rs1("zy_skfs")%></div>
 									<div class="zyContent" style="height:49px;"><b>报读条件：</b><%=RemoveHTML(rs1("zy_bdtj"))%></div>
 									<div class="zyContent" style="height:49px;"><b>报名中心：</b><%=RemoveHTML(rs1("zy_bmzx"))%></div>
-									<div class="zyContent" style="border:0;"><span class="detailSpan"><a href="zyDetail.asp?zyId=<%=rs1("zy_id")%>"><img src="images/detail_btn.gif" /></a></span><span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span></div>
+									<div class="zyContent" style="border:0;"><span class="detailSpan"><a href="zyDetail.asp?zyId=<%=rs1("zy_id")%>&zyType=<%=zyType%>"><img src="images/detail_btn.gif" /></a></span><span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span></div>
 								</div>
 							</div>
 							<% 
