@@ -9,7 +9,7 @@
 						<li class="item-487"><a href="login.asp">管理登陆</a></li>
 					</ul>
             	</div>
-            	<span> Copyright 2010-2014 版权所有：慧源自考教育咨询有限公司(www.gzhyedu.cn)</span>
+            	<span> Copyright 2010-2014 版权所有：慧源自考教育咨询有限公司(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：13805146666</span>
 			</div>
 		</div>
  	</div>
@@ -116,20 +116,22 @@
 			<div class="onlineMenu">
 				<ul>
 					<li class="tli zixun tQQ">在线咨询</li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">专升本科</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">高起本科</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">高起专科</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">专本套读</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">南京地区</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">上海地区</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">广州地区</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">深证地区</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=960279555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">专升本科</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=938607555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">高起本科</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=979356555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">高起专科</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=770084666&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">专本套读</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=979356555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">南京地区</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=938607555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">上海地区</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=770084666&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">广州地区</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=960279555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/pa" border="0" alt="QQ">深证地区</a></li>
 				</ul>
 			</div>
 			<div class="onlineMenu">
 				<h3 class="tele">QQ在线客服</h3>
 				<ul>
-					<li>400-6565-800</li>
+					<li>4008-568-565</li>
+					<li>020-84133136</li>
+					<li>13926190011</li>
 				</ul>
 			</div>
 			<div class="btmbg"></div>
