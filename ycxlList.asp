@@ -37,7 +37,6 @@
 						end if
 						
 						crInfo = RemoveHTML(rs1("yc_info"))
-<<<<<<< HEAD
 						if len(crInfo) > 310 then
 							crInfo = left(crInfo, 310)+"..."
 						end if 
@@ -50,10 +49,6 @@
 						ycSkfs = RemoveHTML(rs1("yc_skfs"))
 						if len(ycSkfs) > 20 then
 							ycSkfs = left(ycSkfs, 20)+"..."
-=======
-						if len(crInfo) > 220 then
-							crInfo = left(crInfo, 220)+"..."
->>>>>>> 8bf1c93cc6555e2891f79405e018a17c52b61897
 						end if 
 					%>
 					<div class="zsDiv">
@@ -61,19 +56,11 @@
 						<div class="zyItem">
 							<div class="zyContent" style="height:240px;"><%=crInfo%></div>
 							<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b><%=rs1("yc_xzlx")%></div>
-<<<<<<< HEAD
 							<div class="zyContent" style="height:25px;"><b>授课方式：</b><%=ycSkfs%></div>
 							<div class="zyContent" style="height:49px;"><b>报读条件：</b><%=ycBdtj%></div>
 							<div class="zyContent" style="height:49px;"><b>报名中心：</b><%=RemoveHTML(rs1("yc_bmzx"))%></div>
 							<div class="zyContent"  style="height:35px;border:0;">
 								<span class="detailSpan"><a href="ycDetail.asp?ycId=<%=rs1("yc_id")%>"><img src="images/detail_btn.gif" /></a></span>
-=======
-							<div class="zyContent" style="height:25px;"><b>授课方式：</b><%=rs1("yc_skfs")%></div>
-							<div class="zyContent" style="height:49px;"><b>报读条件：</b><%=RemoveHTML(rs1("yc_bdtj"))%></div>
-							<div class="zyContent" style="height:49px;"><b>报名中心：</b><%=RemoveHTML(rs1("yc_bmzx"))%></div>
-							<div class="zyContent"  style="height:35px;border:0;">
-								<span class="detailSpan"><a href="ycDetail.asp?crId=<%=rs1("yc_id")%>"><img src="images/detail_btn.gif" /></a></span>
->>>>>>> 8bf1c93cc6555e2891f79405e018a17c52b61897
 								<span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span>
 							</div>
 						</div>

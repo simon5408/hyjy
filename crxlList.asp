@@ -37,7 +37,6 @@
 						end if
 						
 						crInfo = RemoveHTML(rs1("cr_sch_info"))
-<<<<<<< HEAD
 						if len(crInfo) > 310 then
 							crInfo = left(crInfo, 310)+"..."
 						end if 
@@ -50,23 +49,16 @@
 						crAddr = RemoveHTML(rs1("cr_addr"))
 						if len(crAddr) > 130 then
 							crAddr = left(crAddr, 130)+"..."
-=======
-						if len(crInfo) > 220 then
-							crInfo = left(crInfo, 220)+"..."
->>>>>>> 8bf1c93cc6555e2891f79405e018a17c52b61897
+
 						end if 
 					%>
 					<div class="zsDiv">
 						<div class="zyBgDiv"><%=rs1("cr_sch_name")%></div>
 						<div class="zyItem">
 							<div class="zyContent" style="height:240px;"><%=crInfo%></div>
-<<<<<<< HEAD
 							<div class="zyContent" style="height:69px;"><b>招生专业：</b><%=crSpec%></div>
 							<div class="zyContent" style="height:69px;"><b>报名地址：</b><%=crAddr%></div>
-=======
-							<div class="zyContent" style="height:65px;"><b>招生专业：</b><%=RemoveHTML(rs1("cr_spec"))%></div>
-							<div class="zyContent" style="height:65px;"><b>报名地址：</b><%=RemoveHTML(rs1("cr_addr"))%></div>
->>>>>>> 8bf1c93cc6555e2891f79405e018a17c52b61897
+
 							<div class="zyContent"  style="height:35px;border:0;">
 								<span class="detailSpan"><a href="crDetail.asp?crId=<%=rs1("cr_id")%>"><img src="images/detail_btn.gif" /></a></span>
 								<span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span>

@@ -80,7 +80,7 @@ rs.open exec,conn,1,1
 			end if
 		%>
 		<tr>
-			<td><%=rs("news_id")%></td>
+			<td><%=i%></td>
 			<td><%=rs("news_title")%></td>
 			<td><%=rs("news_date")%></td>
 			<td style="width:80px;">

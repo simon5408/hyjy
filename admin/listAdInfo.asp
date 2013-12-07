@@ -51,7 +51,7 @@ rs.open exec,conn,1,1
 	<table class="trgTbl" width="100%" border="0" cellpadding="1" cellspacing="1" style="background:#f5f5f5">
 		<tr>
 			<td style="font-family:'Ó×Ô²', Helvetica, sans-serif;">Ãû³Æ£º</td>
-			<td><input type="text" name="newsTitle" id="newsTitle" value="<%=session("newsTitle")%>"></td>
+			<td><input type="text" name="newsTitle" id="newsTitle" value="<=session("newsTitle")%>"></td>
 		</tr>
 	</table>
 	<div class="searchBtnDiv" style="width:99.5%">
@@ -73,7 +73,7 @@ rs.open exec,conn,1,1
 			end if
 		%>
 		<tr>
-			<td><%=rs("ad_id")%></td>
+			<td><%=i%></td>
 			<td><%=rs("ad_title")%></td>
 			<td><%=rs("ad_date")%></td>
 			<td style="width:80px;">
