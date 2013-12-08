@@ -41,7 +41,11 @@
 	<!--#include file="common/normalTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <!--#include file="common/ad.asp" -->
+	<% if zyType = 2 then %>
+    <!--#include file="common/zyjyAD.asp" -->
+	<% else %>
+	<!--#include file="common/zyzsAD.asp" -->
+	<% end if %>
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">

@@ -13,7 +13,7 @@
 	<!--#include file="common/xlTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <!--include file="common/ad.asp" -->
+    <!--#include file="common/zkxlAD.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">
@@ -37,7 +37,7 @@
 							<div class="phoneDiv">自考一年取证 官方咨询电话：400-6565-800</div>
 						</div>
 						<div class="zyjsDetail">
-							<div class="logoDiv">238X164</div>
+							<div class="logoDiv"><img src="images/ad/Ad.jpg" style="margin-top:1px;" /></div>
 							<div class="contentDiv">
 								<div class="xxDiv"><span>专业名称:</span> <%=rs1("zk_name")%></div>
 								<div class="xxDiv"><span>报考学费:</span> <%=rs1("zk_price")%></div>

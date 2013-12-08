@@ -14,7 +14,7 @@
 	<!--#include file="common/zsTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <!--#include file="common/ad.asp" -->
+    <!--#include file="common/zyzsAD.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">

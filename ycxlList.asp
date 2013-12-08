@@ -12,7 +12,7 @@
 	<!-- 头部操作菜单栏 -->
 	<!--#include file="common/xlTop.asp" -->
 	<!-- 广告标语区-start -->
-    <!--#include file="common/ad.asp" -->
+    <!--#include file="common/ycxlAD.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">

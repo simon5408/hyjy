@@ -32,7 +32,7 @@
 	<!--#include file="common/normalTop.asp" -->
     
 	<!-- 广告标语区-start -->
-    <!--#include file="common/ad.asp" -->
+    <!--#include file="common/crxlAD.asp" -->
 	<!-- 广告标语区-end -->
 	
 	<div id="gkPage">

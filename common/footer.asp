@@ -5,7 +5,6 @@
 					<ul class="menu">
 						<li class="item-443"><a href="index.htm">首页</a></li>
 						<li class="item-475"><a href="contactus.asp">关于我们</a></li>
-						<li class="item-476"><a href="">招生简章</a></li>
 						<li class="item-487"><a href="login.asp">管理登陆</a></li>
 					</ul>
             	</div>
@@ -39,7 +38,7 @@
 				direction : 'left',//left,top
 				duration : 0.3,//
 				easing : 'linear',//swing,linear
-				delay : 10,//
+				delay : 5,//
 				startIndex : 1,//
 				hideClickBar : false,//
 				hideBottomBar : true//
