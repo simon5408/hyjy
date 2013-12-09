@@ -47,14 +47,17 @@
 								end if 
 								
 								zyInfo = RemoveHTML(rs1("zy_info"))
-								if len(zyInfo) > 200 then
-									zyInfo = left(zyInfo, 200)+"..."
+								if len(zyInfo) > 195 then
+									zyInfo = left(zyInfo, 195)+"..."
 								end if 
 							%>
 							<div class="zsDiv">
 								<div class="zyBgDiv"><%=zyName%></div>
 								<div class="zyItem">
-									<div class="zyContent" style="height:240px;"><%=zyInfo%></div>
+									<div class="zyContent" style="height:240px;">
+										<div style="background:url('http://www.edunewline.net/img/hdsf.gif');" class="logoDiv"></div>
+										<%=zyInfo%>
+									</div>
 									<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b><%=rs1("zy_xzfs")%></div>
 									<div class="zyContent" style="height:25px;"><b>授课方式：</b><%=rs1("zy_skfs")%></div>
 									<div class="zyContent" style="height:49px;"><b>报读条件：</b><%=RemoveHTML(rs1("zy_bdtj"))%></div>

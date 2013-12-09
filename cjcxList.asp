@@ -11,59 +11,52 @@
 	<!-- 头部操作菜单栏 -->
 	<!--#include file="common/normalTop.asp" -->
 	
-	<div id="gkPage">
+	<!-- 广告标语区-start -->
+    <!--#include file="common/ad.asp" -->
+	<!-- 广告标语区-end -->
+	
+	<div id="gkPage" style="border:0px solid red; min-height:300px;">
 		<div id="gkPageWrap" class="gkMain gkWrap">  
-		    <div id="mainContent" class="clear">
+		    <div id="mainContent" style="height:300px;">
 				
 				<!-- -->
-				<div id="gkTop1" class="gkMain clear">
-					<div>
-						<div id="gkToptop1" class="gkCol gkColFull">
-							<div class="box">
-								<div>
-									<div class="content">
-										<div class="custom">
-											<div id="wrap">
-												<ul id="work">
-													<li>
-														<a class="ilink" href="http://www.chsi.com.cn/xlcx/lscx.jsp" target="_blank"><img src="images/cjcx/gdjy.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://www.chsi.com.cn/xlcx/lscx.jsp" target="_blank"><img src="images/cjcx/gdjy.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://eea.jxedu.gov.cn/ksycrgk/" target="_blank"><img src="images/cjcx/jxcr.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://eea.jxedu.gov.cn/ksycrgk/" target="_blank"><img src="images/cjcx/jxcr.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://eea.jxedu.gov.cn/ksyzxks/" target="_blank"><img src="images/cjcx/jxzx.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://eea.jxedu.gov.cn/ksyzxks/" target="_blank"><img src="images/cjcx/jxzx.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a>
-													</li>
-													<li>
-														<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj.jpg" border="0"></a> 
-														<a class="plinkInfo" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj.jpg" border="0"></a>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+				<div id="gkTop2" class="gkMain clear">
+					<!-- right -->
+					<div class="rightSide" style="width:100%;">
+						<ul id="work">
+							<li style="margin:0 10px 0 20px;">
+								<a class="ilink" href="http://www.chsi.com.cn/xlcx/lscx.jsp" target="_blank"><img src="images/cjcx/gdjy.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://www.chsi.com.cn/xlcx/lscx.jsp" target="_blank"><img src="images/cjcx/gdjy_1.jpg" border="0"></a>
+							</li>
+							<li style="margin:0 10px 0 10px;">
+								<a class="ilink" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj_1.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj.jpg" border="0"></a>
+							</li>
+							<li style="margin:0 10px 0 10px;">
+								<a class="ilink" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx_1.jpg" border="0"></a>
+							</li>
+							<li style="margin:0 10px 0 10px;">
+								<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj_1.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj.jpg" border="0"></a>
+							</li>
+							<li style="margin:5px 10px 0 20px;">
+								<a class="ilink" href="http://eea.jxedu.gov.cn/ksycrgk/" target="_blank"><img src="images/cjcx/jxcr_1.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://eea.jxedu.gov.cn/ksycrgk/" target="_blank"><img src="images/cjcx/jxcr.jpg" border="0"></a>
+							</li>
+							<li style="margin:5px 10px 0 10px;">
+								<a class="ilink" href="http://eea.jxedu.gov.cn/ksyzxks/" target="_blank"><img src="images/cjcx/jxzx.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://eea.jxedu.gov.cn/ksyzxks/" target="_blank"><img src="images/cjcx/jxzx_1.jpg" border="0"></a>
+							</li>
+							<li style="margin:5px 10px 0 10px;">
+								<a class="ilink" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs_1.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a>
+							</li>
+							<li style="margin:5px 20px 0 10px;">
+								<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj_1.jpg" border="0"></a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>

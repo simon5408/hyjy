@@ -14,8 +14,16 @@
  	</div>
 	
 	<script type="text/javascript">
-		//var jq = jQuery.noConflict(); 
+		jQuery.noConflict();  
 		jQuery(document).ready(function(){
+			jQuery('#work li').hover(function(){
+				jQuery(this).find('.ilink').animate({paddingTop:"-120px"});
+				jQuery(this).find('.plinkInfo').fadeIn(1000);
+			},	function(){
+				jQuery(this).find('.ilink').fadeIn(1000);
+				jQuery(this).find('.plinkInfo').fadeOut(1000);
+			});
+		
 			jQuery("#floatShow").bind("click",function(){
 				jQuery("#onlineService").animate({width:"show", opacity:"show"}, "normal" ,function(){
 					jQuery("#onlineService").show();
@@ -36,12 +44,12 @@
 			
 			jQuery('#gkIs-gk-is-228').slideBox({
 				direction : 'left',//left,top
-				duration : 0.3,//
+				duration : 0.3,//滚动持续时间，单位：秒
 				easing : 'linear',//swing,linear
-				delay : 5,//
-				startIndex : 1,//
-				hideClickBar : false,//
-				hideBottomBar : true//
+				delay : 10,//滚动延迟时间，单位：秒
+				startIndex : 1,//初始焦点顺序
+				hideClickBar : false,//不自动隐藏点选按键
+				hideBottomBar : false//
 			});
 			
 			moveFun("tickerDiv");
@@ -119,6 +127,7 @@
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=938607555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">高起本科</a></li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=979356555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">高起专科</a></li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=770084666&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">专本套读</a></li>
+					<li class="tli zixun tQQ">地区咨询</li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=979356555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">南京地区</a></li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=938607555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">上海地区</a></li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=770084666&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">广州地区</a></li>
@@ -129,8 +138,6 @@
 				<h3 class="tele">QQ在线客服</h3>
 				<ul>
 					<li>4008-568-565</li>
-					<li>020-84133136</li>
-					<li>13926190011</li>
 				</ul>
 			</div>
 			<div class="btmbg"></div>

@@ -16,7 +16,7 @@
 		<!--[if IE 8.0]><link rel="stylesheet" href="css/ie8.css" type="text/css" /><![endif]-->
 		<!--[if IE 7.0]><link rel="stylesheet" href="css/ie7.css" type="text/css" /><![endif]-->
 		<script src="js/mootools-core.js" type="text/javascript"></script>
-		<script src="js/core.js" type="text/javascript"></script>
+		<!--<script src="js/core.js" type="text/javascript"></script>-->
 		<script src="js/caption.js" type="text/javascript"></script>
 		<script src="js/mootools-more.js" type="text/javascript"></script>
 		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
@@ -29,20 +29,12 @@
 				new JCaption('img.caption');
 			});
 						
-			jQuery.noConflict();  
-			jQuery(document).ready(function(){
-				jQuery('#work li').hover(function(){
-					jQuery(this).find('.ilink').animate({paddingTop:"-120px"});
-					jQuery(this).find('.plinkInfo').fadeIn(1000);
-				},	function(){
-					jQuery(this).find('.ilink').fadeIn(1000);
-					jQuery(this).find('.plinkInfo').fadeOut(1000);
-				});
+			
 				
-				jQuery(".hidetion .miun_pice").hover(function(){
+				/**jQuery(".hidetion .miun_pice").hover(function(){
 					jQuery(this).stop().animate({"opacity":"0.5"})
 				},function(){
 					jQuery(this).stop().animate({"opacity":"1.0"})
-				});
-			});
+				});*/
+			//});
 		</script>

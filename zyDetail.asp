@@ -69,53 +69,52 @@
 							<ul class="ulCss">
 							  <li class="liCss" style="margin:5px auto; font:黑体; font-size:18px; text-align:center; color:#000;"><strong><%=rs1("zy_name")%></strong></li>
 							  <li class="bz"><%=rs1("zy_info")%></li>
-							  	<li class="liCss">
-									<div class="cl">学　　制</div>
-									<div class="cr"><%=rs1("zy_xzfs")%></div>
-									<div class="clean"></div>
-								</li>
-							 	<li class="liCss">
-									<div class="cl">授课方式</div>
-									<div class="cr"><%=rs1("zy_skfs")%></div>
-									<div class="clean"></div>
-								</li>
-							 	<li class="liCss">
-									<div class="cl">课程设置</div>
-								 	<div class="cr"><%=RemoveHTML(rs1("zy_kcsz"))%></div>
-					  				<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报读条件</div>
-									<div class="cr"><%=RemoveHTML(rs1("zy_bdtj"))%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">颁发证书</div>
-									<div class="cr"><%=rs1("zy_bfzs")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">教学地点</div>
-									<div class="cr"><%=rs1("zy_jxdd")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报名中心</div>
-									<div class="cr"><%=rs1("zy_bmzx")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报名须知</div>
+							</ul>
+							<div class="dottedBottom">
+								<div class="cl">学　　制</div>
+								<div class="cr"><%=rs1("zy_xzfs")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">授课方式</div>
+								<div class="cr"><%=rs1("zy_skfs")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">课程设置</div>
+								<div class="cr"><%=RemoveHTML(rs1("zy_kcsz"))%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报读条件</div>
+								<div class="cr"><%=RemoveHTML(rs1("zy_bdtj"))%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">颁发证书</div>
+								<div class="cr"><%=rs1("zy_bfzs")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">教学地点</div>
+								<div class="cr"><%=rs1("zy_jxdd")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报名中心</div>
+								<div class="cr"><%=rs1("zy_bmzx")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报名须知</div>
 									<div class="cr"><%=RemoveHTML(rs1("zy_bmxz"))%></div>
 									<div class="clean"></div>
-								</li>
-								<li class="liCss" style="color:#F00; font-weight:bold;">
-									<div class="cl">报名咨询</div>
-									<div class="cr">400-6565-800　（24小时报名咨询）</div>
-									<div class="clean"></div>
-								</li>
-							</ul>
-							<div class="clean"></div>
+							</div>
+							<div class="dottedBottom" style="color:#F00; font-weight:bold;">
+								<div class="cl">报名咨询</div>
+								<div class="cr">400-6565-800　（24小时报名咨询）</div>
+								<div class="clean"></div>
+							</div>
 						</div>
 						
 					</div>

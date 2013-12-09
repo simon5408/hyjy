@@ -55,61 +55,61 @@
 							<ul class="ulCss">
 							  <li class="liCss" style="margin:5px auto; font:黑体; font-size:18px; text-align:center; color:#000;"><strong><%=rs1("yc_name")%></strong></li>
 							  <li class="bz"><%=rs1("yc_info")%></li>
-							  	<li class="liCss">
-									<div class="cl">学　　制</div>
-									<div class="cr"><%=rs1("yc_xzlx")%></div>
-									<div class="clean"></div>
-								</li>
-							 	<li class="liCss">
-									<div class="cl">授课方式</div>
-									<div class="cr"><%=rs1("yc_skfs")%></div>
-									<div class="clean"></div>
-								</li>
-							 	<li class="liCss">
-									<div class="cl">专业设置</div>
-								 	<div class="cr"><%=rs1("yc_zysz")%></div>
-					  				<div class="clean"></div>
-								</li>
-					  			<li class="liCss">
-									<div class="cl">学制年限</div>
-									<div class="cr"><%=rs1("yc_xznx")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">学习层次</div>
-									<div class="cr"><%=rs1("yc_xlcc")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">学历学位</div>
-									<div class="cr"><%=rs1("yc_xlxw")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报读条件</div>
-									<div class="cr"><%=rs1("yc_bdtj")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss"><div class="cl">颁发证书</div>
-									<div class="cr"><%=rs1("yc_bfzs")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报名中心</div>
-									<div class="cr"><%=rs1("yc_bmzx")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报名须知</div>
-									<div class="cr"><%=rs1("yc_bmxz")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss" style="color:#F00; font-weight:bold;">
-									<div class="cl">报名咨询</div>
-									<div class="cr">400-6565-800　（24小时报名咨询）</div>
-									<div class="clean"></div>
-								</li>
-							</ul>
+							  </ul>
+							<div class="dottedBottom">
+								<div class="cl">学　　制</div>
+								<div class="cr"><%=rs1("yc_xzlx")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">授课方式</div>
+								<div class="cr"><%=rs1("yc_skfs")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">专业设置</div>
+								<div class="cr"><%=rs1("yc_zysz")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">学制年限</div>
+								<div class="cr"><%=rs1("yc_xznx")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">学习层次</div>
+								<div class="cr"><%=rs1("yc_xlcc")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">学历学位</div>
+								<div class="cr"><%=rs1("yc_xlxw")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报读条件</div>
+								<div class="cr"><%=rs1("yc_bdtj")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom"><div class="cl">颁发证书</div>
+								<div class="cr"><%=rs1("yc_bfzs")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报名中心</div>
+								<div class="cr"><%=rs1("yc_bmzx")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报名须知</div>
+								<div class="cr"><%=rs1("yc_bmxz")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom" style="color:#F00; font-weight:bold;">
+								<div class="cl">报名咨询</div>
+								<div class="cr">400-6565-800　（24小时报名咨询）</div>
+								<div class="clean"></div>
+							</div>
 							<div class="clean"></div>
 						</div>
 						

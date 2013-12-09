@@ -56,33 +56,32 @@
 							<ul class="ulCss">
 							  <li class="liCss" style="margin:5px auto; font:黑体; font-size:18px; text-align:center; color:#000;"><strong><%=rs1("cr_sch_name")%></strong></li>
 							  <li class="bz"><%=rs1("cr_sch_info")%></li>
-							  	<li class="liCss">
-									<div class="cl">高考介绍</div>
-									<div class="cr"><%=rs1("cr_sch_gk")%></div>
-									<div class="clean"></div>
-								</li>
-							 	<li class="liCss">
-									<div class="cl">招生专业</div>
-									<div class="cr"><%=rs1("cr_spec")%></div>
-									<div class="clean"></div>
-								</li>
-							 	
-								<li class="liCss">
-									<div class="cl">学习流程</div>
-									<div class="cr"><%=rs1("cr_study_lc")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss">
-									<div class="cl">报名地址</div>
-									<div class="cr"><%=rs1("cr_addr")%></div>
-									<div class="clean"></div>
-								</li>
-								<li class="liCss" style="color:#F00; font-weight:bold;">
-									<div class="cl">报名咨询</div>
-									<div class="cr">400-6565-800　（24小时报名咨询）</div>
-									<div class="clean"></div>
-								</li>
-							</ul>
+							 </ul>
+							<div class="dottedBottom">
+								<div class="cl">高考介绍</div>
+								<div class="cr"><%=rs1("cr_sch_gk")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">招生专业</div>
+								<div class="cr"><%=rs1("cr_spec")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">学习流程</div>
+								<div class="cr"><%=rs1("cr_study_lc")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom">
+								<div class="cl">报名地址</div>
+								<div class="cr"><%=rs1("cr_addr")%></div>
+								<div class="clean"></div>
+							</div>
+							<div class="dottedBottom" style="color:#F00; font-weight:bold;">
+								<div class="cl">报名咨询</div>
+								<div class="cr">400-6565-800　（24小时报名咨询）</div>
+								<div class="clean"></div>
+							</div>
 							<div class="clean"></div>
 						</div>
 						

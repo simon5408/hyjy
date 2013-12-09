@@ -37,8 +37,8 @@
 						end if
 						
 						crInfo = RemoveHTML(rs1("cr_sch_info"))
-						if len(crInfo) > 310 then
-							crInfo = left(crInfo, 310)+"..."
+						if len(crInfo) > 280 then
+							crInfo = left(crInfo, 280)+"..."
 						end if 
 						
 						crSpec = RemoveHTML(rs1("cr_spec"))
@@ -55,7 +55,10 @@
 					<div class="zsDiv">
 						<div class="zyBgDiv"><%=rs1("cr_sch_name")%></div>
 						<div class="zyItem">
-							<div class="zyContent" style="height:240px;"><%=crInfo%></div>
+							<div class="zyContent" style="height:240px;">
+								<div style="background:url('http://www.edunewline.net/img/hdsf.gif');" class="logoDiv"></div>
+								<%=crInfo%>
+							</div>
 							<div class="zyContent" style="height:69px;"><b>招生专业：</b><%=crSpec%></div>
 							<div class="zyContent" style="height:69px;"><b>报名地址：</b><%=crAddr%></div>
 
