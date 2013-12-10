@@ -36,6 +36,22 @@
 						exit for
 						end if
 						
+						dxImg = ""
+						select case rs1("cr_id")
+							case 1
+							dxImg = "images/dx/shdegydx.gif"
+							case 2
+							dxImg = "images/dx/hdlgdx.gif"
+							case 3
+							dxImg = "images/dx/jsdx.gif"
+							case 4
+							dxImg = "images/dx/whdx.gif"
+							case 5
+							dxImg = "images/dx/xadzkjdx.gif"
+							case 6
+							dxImg = "images/dx/whlgdx.gif"
+						end select
+						
 						crInfo = RemoveHTML(rs1("cr_sch_info"))
 						if len(crInfo) > 280 then
 							crInfo = left(crInfo, 280)+"..."
@@ -56,7 +72,7 @@
 						<div class="zyBgDiv"><%=rs1("cr_sch_name")%></div>
 						<div class="zyItem">
 							<div class="zyContent" style="height:240px;">
-								<div style="background:url('http://www.edunewline.net/img/hdsf.gif');" class="logoDiv"></div>
+								<div style="background:url('<%=dxImg%>');" class="logoDiv"></div>
 								<%=crInfo%>
 							</div>
 							<div class="zyContent" style="height:69px;"><b>ÕÐÉú×¨Òµ£º</b><%=crSpec%></div>
