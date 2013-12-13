@@ -8,7 +8,7 @@
 						<li class="item-487"><a href="login.asp">管理登陆</a></li>
 					</ul>
             	</div>
-            	<span> Copyright 2010-2014 版权所有：慧源自考教育咨询有限公司(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：13805146666</span>
+            	<span> Copyright 2010-2014 版权所有：慧源教育集团(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：13805146666</span>
 			</div>
 		</div>
  	</div>

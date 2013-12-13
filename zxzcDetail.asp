@@ -144,8 +144,9 @@
 								<div class="sDiv"><div class="buttonDiv" onclick="doSbmit()">提 交</div> <div class="buttonDiv" style="margin-left:5px;" onclick="window.location.reload()">重 置</div></div>
 							</div>
 							<div class="bmxqTitle">&nbsp;报名详情</div>
-							<div class="subBut">&nbsp;&nbsp;请各位同学如实填写各项内容，以免影响正常报名。 </div>
-							<div class="subBut bottom_5">&nbsp;&nbsp;本中心未委托任何单位和个人代收学费，谨防上当受骗。</div>
+							<div class="subBut">&nbsp;&nbsp;&gt 请各位同学如实填写各项内容，以免影响正常报名；</div>
+							<div class="subBut">&nbsp;&nbsp;&gt; 本中心会在一周内有专业指导老师联系您； </div>
+							<div class="subBut bottom_5">&nbsp;&nbsp;&gt; 本中心未委托任何单位和个人代收学费，谨防上当受骗。</div>
 						</div>
 					</div>
 					

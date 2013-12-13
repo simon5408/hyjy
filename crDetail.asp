@@ -58,7 +58,7 @@
 							  <li class="bz"><%=rs1("cr_sch_info")%></li>
 							 </ul>
 							<div class="dottedBottom">
-								<div class="cl">高考介绍</div>
+								<div class="cl">报名须知</div>
 								<div class="cr"><%=rs1("cr_sch_gk")%></div>
 								<div class="clean"></div>
 							</div>
@@ -68,7 +68,7 @@
 								<div class="clean"></div>
 							</div>
 							<div class="dottedBottom">
-								<div class="cl">学习流程</div>
+								<div class="cl">入学考试</div>
 								<div class="cr"><%=rs1("cr_study_lc")%></div>
 								<div class="clean"></div>
 							</div>
