@@ -3,7 +3,7 @@
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>成人学历</title>
+		<title>成人函授</title>
 		<!-- 头部公共操作类 -->
 		<!--#include file="common/header.asp" -->
 </head>
@@ -37,7 +37,7 @@
 						end if
 						
 						dxImg = ""
-						select case rs1("cr_id")
+						select case i
 							case 1
 							dxImg = "images/dx/shdegydx.gif"
 							case 2
@@ -45,11 +45,11 @@
 							case 3
 							dxImg = "images/dx/jsdx.gif"
 							case 4
-							dxImg = "images/dx/whdx.gif"
+							dxImg = "images/dx/gddx.gif"
 							case 5
-							dxImg = "images/dx/xadzkjdx.gif"
-							case 6
 							dxImg = "images/dx/whlgdx.gif"
+							case 6
+							dxImg = "images/dx/xadzkjdx.gif"
 						end select
 						
 						crInfo = RemoveHTML(rs1("cr_sch_info"))

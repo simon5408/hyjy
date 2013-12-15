@@ -3,7 +3,7 @@
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>远程学历</title>
+		<title>网络远程</title>
 		<!-- 头部公共操作类 -->
 		<!--#include file="common/header.asp" -->
 </head>
@@ -23,7 +23,7 @@
 				<div id="gkTop1" class="gkMain">
 					<div class="newsTitle bgColor ycxlBgImg">
 						<div class="phoneDiv" style="width:785px;">官方咨询电话：400-6565-800</div>
-						<div class="moreDiv"><a href=""></a></div>
+						<div class="moreDiv"><a href="ycDetail.asp?ycId=1">更多...</a></div>
 					</div>
 				</div>
 				<div id="gkTop1" class="gkMain clear" style="border:1px solid #909090; margin-top:0px; border-top:0px;">
@@ -37,9 +37,9 @@
 						end if
 						
 						dxImg = ""
-						select case rs1("yc_id")
+						select case i
 							case 1
-							dxImg = "images/dx/tjdx.gif"
+							dxImg = "images/dx/gddx.gif"
 							case 2
 							dxImg = "images/dx/hdlgdx.gif"
 							case 3

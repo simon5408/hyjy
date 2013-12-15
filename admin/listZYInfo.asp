@@ -57,7 +57,7 @@
 		zyName = request.querystring("zyName")
 		session("zyName") = zyName
 		
-		sql= "select * from zy_info where 1=1 "
+		sql= "select * from zy_info where zy_type= "&xsType
 		
 		'Ñ§ÉúĞÕÃû
 		if zyName <> "" then

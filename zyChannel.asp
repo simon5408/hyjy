@@ -50,6 +50,11 @@
 								if len(zyInfo) > 215 then
 									zyInfo = left(zyInfo, 215)+"..."
 								end if 
+								
+								bdtjInfo = RemoveHTML(rs1("zy_bdtj"))
+								if len(bdtjInfo) > 35 then
+									bdtjInfo = left(bdtjInfo, 35)+"..."
+								end if 
 							%>
 							<div class="zsDiv">
 								<div class="zyBgDiv"><%=zyName%></div>
@@ -60,9 +65,9 @@
 									</div>
 									<div class="zyContent" style="height:25px;"><b>学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制：</b><%=rs1("zy_xzfs")%></div>
 									<div class="zyContent" style="height:25px;"><b>授课方式：</b><%=rs1("zy_skfs")%></div>
-									<div class="zyContent" style="height:49px;"><b>报读条件：</b><%=RemoveHTML(rs1("zy_bdtj"))%></div>
+									<div class="zyContent" style="height:49px;"><b>报读条件：</b><%=bdtjInfo%></div>
 									<div class="zyContent" style="height:49px;"><b>报名中心：</b><%=RemoveHTML(rs1("zy_bmzx"))%></div>
-									<div class="zyContent" style="border:0;"><span class="detailSpan"><a href="zyDetail.asp?zyId=<%=rs1("zy_id")%>&zyType=<%=zyType%>""><img src="images/detail_btn.gif" /></a></span><span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span></div>
+									<div class="zyContent" style="border:0;"><span class="detailSpan"><a href="zyDetail.asp?zyId=<%=rs1("zy_id")%>&zyType=<%=zyType%>"><img src="images/detail_btn.gif" /></a></span><span class="baomiSpan"><a href="zxzcDetail.asp" target="_blank"><img src="images/baomi_btn.gif" /></a></span></div>
 								</div>
 							</div>
 							<% 
@@ -71,7 +76,7 @@
 							%>
 						</div>
 						
-						<div style="width:100%; margin:5px auto; border:1px solid #808080;"><img src="images/wjbanner.jpg" width="784px"></div>
+						<div style="width:100%; margin:5px auto; border:1px solid #808080;"><img src="images/wjbanner.gif" width="784px"></div>
 						
 					</div>
 					

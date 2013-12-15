@@ -74,8 +74,13 @@
 						if rs1.eof then
 						exit for
 						end if
+						
+						newsTitle1 = RemoveHTML(rs1("news_title"))
+						if len(newsTitle1) > 22 then
+							newsTitle1 = left(newsTitle1, 22)+"..."
+						end if 
 					%>
-						<p><img src="images/jt.gif"> <a href="newsDetail.asp?newsId=<%=rs1("news_id")%>"><%=rs1("news_title")%></a></p>
+						<p><img src="images/jt.gif"> <a href="newsDetail.asp?newsId=<%=rs1("news_id")%>" title="<%=rs1("news_title")%>"><%=newsTitle1%></a></p>
 					<% 
 						rs1.movenext
 						next 
@@ -91,12 +96,17 @@
 						exec2="select * from news where news_type=2"
 						set rs2=server.createobject("adodb.recordset")
 						rs2.open exec2,conn,1,1
-						for i= 1 to 7
+						for i= 1 to 5
 						if rs2.eof then
 						exit for
 						end if
+						
+						newsTitle2 = RemoveHTML(rs2("news_title"))
+						if len(newsTitle2) > 22 then
+							newsTitle2 = left(newsTitle2, 22)+"..."
+						end if 
 					%>
-						<p><img src="images/jt.gif"> <a href="newsDetail.asp?newsId=<%=rs2("news_id")%>"><%=rs2("news_title")%></a></p>
+						<p><img src="images/jt.gif"> <a href="newsDetail.asp?newsId=<%=rs2("news_id")%>" title="<%=rs2("news_title")%>"><%=newsTitle2%></a></p>
 					<% 
 						rs2.movenext
 						next 
@@ -112,12 +122,17 @@
 						exec3="select * from news where news_type=3"
 						set rs3=server.createobject("adodb.recordset")
 						rs3.open exec3,conn,1,1
-						for i= 1 to 7
+						for i= 1 to 5
 						if rs3.eof then
 						exit for
 						end if
+						
+						newsTitle3 = RemoveHTML(rs3("news_title"))
+						if len(newsTitle3) > 22 then
+							newsTitle3 = left(newsTitle3, 22)+"..."
+						end if 
 					%>
-						<p><img src="images/jt.gif"> <a href="newsDetail.asp?newsId=<%=rs3("news_id")%>"><%=rs3("news_title")%></a></p>
+						<p><img src="images/jt.gif"> <a href="newsDetail.asp?newsId=<%=rs3("news_id")%>" title="<%=rs3("news_title")%>"><%=newsTitle3%></a></p>
 					<% 
 						rs3.movenext
 						next 

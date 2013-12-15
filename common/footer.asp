@@ -53,7 +53,7 @@
 			});
 			
 			moveFun("tickerDiv");
-			moveFun("tickerDiv1");
+			//moveFun("tickerDiv1");
 		});
 		
 		function moveFun(id){
@@ -131,7 +131,7 @@
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=979356555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">南京地区</a></li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=938607555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">上海地区</a></li>
 					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=770084666&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">广州地区</a></li>
-					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=960279555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">深证地区</a></li>
+					<li><a href="http://wpa.qq.com/msgrd?V=1&Uin=960279555&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/qq.jpg" border="0" alt="QQ">深圳地区</a></li>
 				</ul>
 			</div>
 			<div class="onlineMenu">

@@ -71,7 +71,7 @@
 							
 						</div>
 						
-						<div style="width:100%; margin:5px auto; border:1px solid #808080;"><img src="images/wjbanner.jpg" width="784px"></div>
+						<div style="width:100%; margin:5px auto; border:1px solid #808080;"><img src="images/wjbanner.gif" width="784px"></div>
 						
 					</div>
 					

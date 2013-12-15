@@ -36,7 +36,7 @@
 								exec1="select * from download_info"
 								set rs1=server.createobject("adodb.recordset")
 								rs1.open exec1,conn,1,1
-								for i= 1 to 5
+								for i= 1 to rs1.recordcount
 								if rs1.eof then
 								exit for
 								end if

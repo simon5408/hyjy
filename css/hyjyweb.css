@@ -96,11 +96,12 @@
 }
 .rightSide .listDiv table .priceDiv{
 	font-family:'Î¢ÈíÑÅºÚ'; 
-	font-size:20px; 
+	font-size:15px; 
 	color:#FFEA06; 
 	height:32px; 
-	padding-left:8px; 
+	padding-left:0px; 
 	border:0px solid red;
+	width:133px;
 }
 .rightSide .listDiv table .butnDiv{
 	background:url("../images/tubiao.gif") no-repeat; 
@@ -116,17 +117,19 @@
 	margin-top: 3px;
 }
 .rightSide .zyjsDetail div{
-	float:left;
+	
 }
 .rightSide .zyjsDetail .logoDiv{
+	float:left;
 	width: 240px;
-	border-right: 1px solid #808080;
+	border-right: 0px solid #808080;
 	height: 200px;
 }
 
 .rightSide .zyjsDetail .contentDiv{
-	width: 530px;
-	margin-left:10px;
+	float:left;
+	width: 525px;
+	margin-left:4px;
 	border: 0px solid #808080;
 }
 
