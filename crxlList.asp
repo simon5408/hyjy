@@ -23,7 +23,7 @@
 				<div id="gkTop1" class="gkMain">
 					<div class="newsTitle bgColor crxlBgImg">
 						<div class="phoneDiv" style="width:785px;">官方咨询电话：400-6565-800</div>
-						<div class="moreDiv"><a href=""></a></div>
+						<div class="moreDiv"><a href="crDetail.asp?crId=1">更多...</a></div>
 					</div>
 				</div>
 				<div id="gkTop1" class="gkMain clear" style="border:1px solid #909090; margin-top:0px; border-top:0px;">

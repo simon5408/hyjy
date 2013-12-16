@@ -78,7 +78,7 @@
 								exec2="select * from zkxl_info where zk_type=2 order by zk_level"
 								set rs2=server.createobject("adodb.recordset")
 								rs2.open exec2,conn,1,1
-								for i= 1 to 6
+								for i= 1 to 12
 								if rs2.eof then
 								exit for
 								end if
