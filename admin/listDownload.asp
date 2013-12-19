@@ -80,7 +80,7 @@ rs.open exec,conn,1,1
 			end if
 		%>
 		<tr>
-			<td><%=rs("dl_id")%></td>
+			<td><%=i%></td>
 			<td><%=rs("file_title")%></td>
 			<td><%=rs("file_name")%></td>
 			<td><%=rs("dl_date")%></td>

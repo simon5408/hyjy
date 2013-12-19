@@ -40,7 +40,7 @@
 							<div class="logoDiv"><img src="images/ad/Ad.jpg" style="margin-top:1px;" /></div>
 							<div class="contentDiv">
 								<div class="xxDiv"><span>专业名称:</span> <%=rs1("zk_name")%></div>
-								<div class="xxDiv"><span>报考学费:</span> <%=rs1("zk_price")%></div>
+								<div class="xxDiv"><span>专业代码:</span> <%=rs1("zk_price")%></div>
 								<div class="xxDiv"><span>毕业时间:</span> <%=rs1("zk_time")%></div>
 								<div class="xxDiv"><span>考核发证:</span> <%=rs1("zk_khfz")%></div>
 								<div class="xxDiv"><span>毕业保障:</span> <%=rs1("zk_bybz")%></div>

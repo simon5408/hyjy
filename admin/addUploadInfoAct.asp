@@ -1,11 +1,10 @@
 <!--#include file="conn.asp" -->
 <%
-
+dlid = request.form("dlid")
 fileTitle = request.form("fileTitle")
-fileName = request.form("fileName")
 dlDate =  now()
 
-exec="insert into download_info (file_title, file_name, dl_date) values('"&fileTitle&"','"&fileName&"','"&dlDate&"')"
+exec="update download_info set file_title = '"&fileTitle&"', dl_date = '"&dlDate&"' where dl_id = "&dlid&""
 conn.execute exec
 conn.close
 set conn=nothing

@@ -8,8 +8,9 @@
 						<li class="item-487"><a href="login.asp">管理登陆</a></li>
 					</ul>
             	</div>
-            	<span> Copyright 2010-2014 版权所有：慧源教育集团(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：13805146666</span>
+            	<span> Copyright 2010-2014 版权所有：慧源教育集团(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：400-6565-800</span>
 			</div>
+			<div style="border:0px solid red; margin-top:5px;"><a href="http://js.cyberpolice.cn/webpage/index.jsp" target="_blank"><img src="../images/clip_image001.jpg"></a></div>
 		</div>
  	</div>
 	

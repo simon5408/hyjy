@@ -1,5 +1,6 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
 
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="conn.asp" -->
 <%
 cateId = request.querystring("cate")
 If request.totalbytes>0 Then
@@ -58,7 +59,24 @@ Sub SaveTofile()'将上传的文件保存到服务器
   end with
  Set strm=Nothing
  Set formstrm=Nothing
- response.redirect "addUploadInfo.asp?&fileName="&Server.UrlEncode(filename)
+ 
+ 'fileName = request.form("fileName")
+ fileTitle = ""
+ dlDate = now()
+ 
+ dlid = 0
+ exec="insert into download_info (file_title, file_name, dl_date) values('"&fileTitle&"','"&fileName&"','"&dlDate&"')"
+ conn.execute exec
+ 
+ exec1="select * from download_info where (file_name='"&fileName&"')"
+ set rs1=server.createobject("adodb.recordset")
+ rs1.open exec1,conn,1,1
+ 
+ dlid = rs1("dl_id")
+ conn.close
+ set conn=nothing
+ 
+ response.redirect "addUploadInfo.asp?dlid="&dlid
 End Sub
 function fRegExpSgl(str,glb,igc,mtl,pt,rpt)
  dim re
