@@ -28,12 +28,12 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="newsTitle bgColor zlxzBgImg">
-							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+							<div class="phoneDiv">官方咨询电话：4008-568-565</div>
 						</div>
 						<div class="newsList" style="min-height:692px;">
 							<div style="height:20px;"></div>
 							<%
-								exec1="select * from download_info"
+								exec1="select * from download_info where file_title<>''"
 								set rs1=server.createobject("adodb.recordset")
 								rs1.open exec1,conn,1,1
 								for i= 1 to rs1.recordcount

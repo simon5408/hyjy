@@ -22,7 +22,7 @@
 				<!-- -->
 				<div id="gkTop1" class="gkMain">
 					<div class="newsTitle bgColor ycxlBgImg">
-						<div class="phoneDiv" style="width:785px;">官方咨询电话：400-6565-800</div>
+						<div class="phoneDiv" style="width:785px;">官方咨询电话：4008-568-565</div>
 						<div class="moreDiv"><a href="ycDetail.asp?ycId=1">更多...</a></div>
 					</div>
 				</div>

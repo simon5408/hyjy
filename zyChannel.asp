@@ -28,7 +28,7 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="zkTitle bgColor zyjyBgImg">
-							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+							<div class="phoneDiv">官方咨询电话：4008-568-565</div>
 							<div class="moreDiv"><a href=""></a></div>
 						</div>
 						<div class="zkList">

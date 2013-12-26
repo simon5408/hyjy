@@ -33,7 +33,7 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="newsTitle bgColor xwzxBgImg">
-							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+							<div class="phoneDiv">官方咨询电话：4008-568-565</div>
 						</div>
 						<div class="newsDetail" style="min-height:692px;">
 							<div style="height:45px; width:100%; padding-top:5px; font-family:黑体; font-size:24px; text-align:center; font-weight:bold;border:0px solid #c0c0c0; background-color:f0f0f0;"><%=rs("news_title")%></div>

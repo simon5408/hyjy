@@ -34,7 +34,7 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="zyjsTitle bgColor zyjsBgImg">
-							<div class="phoneDiv">自考一年取证 官方咨询电话：400-6565-800</div>
+							<div class="phoneDiv">自考一年取证 官方咨询电话：4008-568-565</div>
 						</div>
 						<div class="zyjsDetail">
 							<div class="logoDiv"><img src="images/ad/Ad.jpg" style="margin-top:1px;" /></div>
@@ -69,7 +69,6 @@
 						</div>
 					</div>
 					<!-- -->
-					
 				</div>
 			</div>
 		</div>

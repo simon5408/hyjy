@@ -84,7 +84,7 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="newsTitle bgColor wsbmBgImg">
-							<div class="phoneDiv">官方咨询电话：400-6565-800</div>
+							<div class="phoneDiv">官方咨询电话：4008-568-565</div>
 						</div>
 						<div class="newsDetail">
 							<form  name="addOnline" method="post" action="addOnlineInfoAct.asp">

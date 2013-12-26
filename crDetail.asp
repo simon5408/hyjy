@@ -45,7 +45,7 @@
 					<!--#include file="common/crLeft.asp" -->
 					<!-- right -->
 					<div class="rightSide">
-						<div class="kctdTitle bgColor crxlBgImg"><div class="phoneDiv" style="width:585px;">官方咨询电话：400-6565-800</div></div>
+						<div class="kctdTitle bgColor crxlBgImg"><div class="phoneDiv" style="width:585px;">官方咨询电话：4008-568-565</div></div>
 						<div class="kctdDetail">
 							<%
 								Idx = Request.QueryString("crId")
@@ -79,7 +79,7 @@
 							</div>
 							<div class="dottedBottom" style="color:#F00; font-weight:bold;">
 								<div class="cl">报名咨询</div>
-								<div class="cr">400-6565-800　（24小时报名咨询）</div>
+								<div class="cr">4008-568-565　（24小时报名咨询）</div>
 								<div class="clean"></div>
 							</div>
 							<div class="clean"></div>
