@@ -63,8 +63,8 @@
 						end if 
 						
 						crAddr = RemoveHTML(rs1("cr_addr"))
-						if len(crAddr) > 130 then
-							crAddr = left(crAddr, 130)+"..."
+						if len(crAddr) > 109 then
+							crAddr = left(crAddr, 109)+"..."
 
 						end if 
 					%>

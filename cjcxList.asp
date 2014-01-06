@@ -33,8 +33,8 @@
 								<a class="plinkInfo" href="http://xjxl.chsi.com.cn/index.action" target="_blank"><img src="images/cjcx/gdjyxj.jpg" border="0"></a>
 							</li>
 							<li style="margin:0 10px 0 10px;">
-								<a class="ilink" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx.jpg" border="0"></a> 
-								<a class="plinkInfo" href="http://cha.hbzkw.com/" target="_blank"><img src="images/cjcx/hbzx_1.jpg" border="0"></a>
+								<a class="ilink" href="http://www.hbea.edu.cn" target="_blank"><img src="images/cjcx/hbzxks.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://www.hbea.edu.cn" target="_blank"><img src="images/cjcx/hbzxks.jpg" border="0"></a>
 							</li>
 							<li style="margin:0 10px 0 10px;">
 								<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=300&pram=results" target="_blank"><img src="images/cjcx/jsjdj_1.jpg" border="0"></a> 
@@ -42,16 +42,16 @@
 							</li>
 							
 							<li style="margin:5px 10px 0 20px;">
-								<a class="ilink" href="http://www.hbea.edu.cn" target="_blank"><img src="images/cjcx/hbzxks.jpg" border="0"></a> 
-								<a class="plinkInfo" href="http://www.hbea.edu.cn" target="_blank"><img src="images/cjcx/hbzxks.jpg" border="0"></a>
+								<a class="ilink" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs_1.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a>
+							</li>
+							<li style="margin:5px 10px 0 10px;">
+								<a class="ilink" href="http://www.hneeb.cn/website/sjcx.htm" target="_blank"><img src="images/cjcx/hnzxks.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://www.hneeb.cn/website/sjcx.htm" target="_blank"><img src="images/cjcx/hnzxks.jpg" border="0"></a>
 							</li>
 							<li style="margin:5px 10px 0 10px;">
 								<a class="ilink" href="http://www.jxeea.cn" target="_blank"><img src="images/cjcx/jxzx.jpg" border="0"></a> 
 								<a class="plinkInfo" href="http://www.jxeea.cn" target="_blank"><img src="images/cjcx/jxzx_1.jpg" border="0"></a>
-							</li>
-							<li style="margin:5px 10px 0 10px;">
-								<a class="ilink" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs_1.jpg" border="0"></a> 
-								<a class="plinkInfo" href="http://www.chinadegrees.com.cn/" target="_blank"><img src="images/cjcx/xwzs.jpg" border="0"></a>
 							</li>
 							<li style="margin:5px 20px 0 10px;">
 								<a class="ilink" href="http://chaxun.neea.edu.cn/examcenter/query.cn?op=doQueryCond&sid=280&pram=results" target="_blank"><img src="images/cjcx/yysj.jpg" border="0"></a> 
@@ -67,8 +67,8 @@
 								<a class="plinkInfo" href="http://www.eeagd.edu.cn" target="_blank"><img src="images/cjcx/gdzxks.jpg" border="0"></a>
 							</li>
 							<li style="margin:5px 10px 0 10px;">
-								<a class="ilink" href="http://www.hneeb.cn/website/sjcx.htm" target="_blank"><img src="images/cjcx/hnzxks.jpg" border="0"></a> 
-								<a class="plinkInfo" href="http://www.hneeb.cn/website/sjcx.htm" target="_blank"><img src="images/cjcx/hnzxks.jpg" border="0"></a>
+								<a class="ilink" href="http://www.heao.com.cn" target="_blank"><img src="images/cjcx/hnszxks.jpg" border="0"></a> 
+								<a class="plinkInfo" href="http://www.heao.com.cn" target="_blank"><img src="images/cjcx/hnszxks.jpg" border="0"></a>
 							</li>
 							
 						</ul>
