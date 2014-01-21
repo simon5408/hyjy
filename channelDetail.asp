@@ -47,7 +47,7 @@
 								<div class="btnDivs xxDiv">
 									<div><a href="zxzcDetail.asp" target="_blank"><img src="images/baoming.jpg" /></a></div>
 									<div><a href="http://wpa.qq.com/msgrd?V=1&Uin=737099789&Site=%E6%85%A7%E6%BA%90%E6%95%99%E8%82%B2&Menu=yes" target="_blank"><img src="images/zhixun.jpg" /></a></div>
-									<div><img src="images/vip_xiangqing.jpg" /></div>
+									<div><a href="zkvip.asp" target="_blank"><img src="images/vip_xiangqing.jpg" /></a></div>
 								</div>
 							</div>
 						</div>
