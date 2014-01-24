@@ -120,7 +120,7 @@ end function
 		<tr>
 			<th width="100" height="50" align="right">上传图片：</th>
 			<td width="" align="left">
-				<input name="FileName" id="scFile" type="FILE" class="tx1" size="40" style="height:22">（宽度为784px）
+				<input name="FileName" id="scFile" type="FILE" class="tx1" size="40" style="height:22">（宽度为1090px）
 			</td>
 		</tr>
 	</table>
