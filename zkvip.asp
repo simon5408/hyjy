@@ -1,4 +1,4 @@
-
+<!--#include file="conn.asp" -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- saved from url=(0022)http://www.szhyedu.cn/ -->
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -32,16 +32,18 @@
 						-->
 						<div style="border:1px solid #e0e0e0; margin-left:-5px;">
 						<% 
-							dim fso,mydir,dname
-							Set fso=server.createobject("Scripting.FileSystemObject")
-							set mydir=fso.getfolder(server.mappath("/admin/vip"))
-							for each items in mydir.files
-							'依次读取web目录下的每个文件对象
-							dname=items.path
-							htmfile=replace(dname,mydir&"\","")
+							exec="select * from vip_img order by vi_order"
+							set rs=server.createobject("adodb.recordset")
+							rs.open exec,conn,1,1 
+							
+							for i= 1 to rs.recordcount
+							if rs.eof then
+							exit for
+							end if
 						%>
-						<p align="center"><img src="admin/vip/<%=htmfile%>"></p>
+						<span align="center"><img src="admin/vip/<%=rs("vi_path")%>"></span>
 						<%
+							rs.movenext
 							next 
 						%>
 						</div>
@@ -51,7 +53,10 @@
 			</div>
 		</div>
 	</div>
-	
+	<%
+		conn.close
+		set conn=nothing
+	%>
 	<!-- 底部操作菜单栏 -->
 	<!--#include file="common/footer.asp" -->
 

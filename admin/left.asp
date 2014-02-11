@@ -10,13 +10,19 @@
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
+					<a href="listZKXueliInfo.asp">管理自考学历</a>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
 					<a href="addVipImages.asp">新增VIP图片</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
 					<img src="../images/jobstp/order_job.png" border="0">&nbsp; 
-					<a href="listZKXueliInfo.asp">管理自考学历</a>
+					<a href="listVipImages.asp">管理VIP图片</a>
 				</td>
 			</tr>
 			<tr>

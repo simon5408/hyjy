@@ -8,7 +8,7 @@
 						<li class="item-487"><a href="login.asp">管理登陆</a></li>
 					</ul>
             	</div>
-            	<span> Copyright 2010-2014 版权所有：慧源教育集团(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：4008-568-565</span>
+            	<span> Copyright 2010-2014 版权所有：慧源教育集团(www.gzhyedu.cn) <b style="color:#000;">监督投诉电话</b>：400-6565-800</span>
 			</div>
 			<div style="border:0px solid red; margin-top:5px;"><a href="http://js.cyberpolice.cn/webpage/index.jsp" target="_blank"><img src="../images/clip_image001.jpg"></a></div>
 		</div>
@@ -47,7 +47,7 @@
 				direction : 'left',//left,top
 				duration : 0.3,//滚动持续时间，单位：秒
 				easing : 'linear',//swing,linear
-				delay : 10,//滚动延迟时间，单位：秒
+				delay : 20,//滚动延迟时间，单位：秒
 				startIndex : 1,//初始焦点顺序
 				hideClickBar : false,//不自动隐藏点选按键
 				hideBottomBar : false//

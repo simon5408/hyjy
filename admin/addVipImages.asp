@@ -59,6 +59,9 @@ Sub SaveTofile()'将上传的文件保存到服务器
   end with
  Set strm=Nothing
  Set formstrm=Nothing
+ 
+ exec="insert into vip_img (vi_path, vi_order) values('"&fileName&"','0')"
+ conn.execute exec
   
  response.redirect "addVipImages.asp"
 End Sub
@@ -108,7 +111,7 @@ end function
 
 	<!-- 左边操作栏 -->
 	<div id="left">
-		
+		<!--#include file="left.asp" -->
 	</div>
 	
 	<div id="right">
@@ -120,7 +123,7 @@ end function
 		<tr>
 			<th width="100" height="50" align="right">上传图片：</th>
 			<td width="" align="left">
-				<input name="FileName" id="scFile" type="FILE" class="tx1" size="40" style="height:22">（宽度为1090px）
+				<input name="FileName" id="scFile" type="FILE" class="tx1" size="40" style="height:22">（宽度为1090px, 图片小于200K）
 			</td>
 		</tr>
 	</table>
