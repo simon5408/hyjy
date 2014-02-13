@@ -57,7 +57,7 @@
 			<td width="" align="left">
 				<select id="viOrder" name="viOrder">
 					<option value="0">-«Î—°‘Ò-</option>
-					<% for i=1 to 10 %>
+					<% for i=1 to 15 %>
 					<option value="<%=i%>" <% if rs("vi_order") = i then%>selected<%end if%>><%=i%></option>
 					<% next%>
 				</select>

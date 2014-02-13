@@ -41,7 +41,7 @@
 							exit for
 							end if
 						%>
-						<span align="center"><img src="admin/vip/<%=rs("vi_path")%>"></span>
+						<span align="center"><a href="http://wpa.qq.com/msgrd?V=1&amp;Uin=770084666&amp;Site=»ÛÔ´½ÌÓý&amp;Menu=yes" target="_blank"><img src="admin/vip/<%=rs("vi_path")%>"></a></span>
 						<%
 							rs.movenext
 							next 

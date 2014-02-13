@@ -37,7 +37,7 @@
 							<div class="phoneDiv">自考一年取证 官方咨询电话：4008-568-565</div>
 						</div>
 						<div class="zyjsDetail">
-							<div class="logoDiv"><img src="images/ad/Ad.jpg" style="margin-top:1px;" /></div>
+							<div class="logoDiv"><img src="images/ad/gzhyAD.gif" style="margin-top:1px; margin-left:15px" height="197" width="197" /></div>
 							<div class="contentDiv">
 								<div class="xxDiv"><span>专业名称:</span> <%=rs1("zk_name")%></div>
 								<div class="xxDiv"><span>专业代码:</span> <%=rs1("zk_price")%></div>

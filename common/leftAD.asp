@@ -1,6 +1,6 @@
 						<!-- AD1 -->
 						<div class="adBtn">
-							<a href="showAd.asp?adId=1"><img src="../images/xueli.jpg" width="300" height="200" /></a>
+							<a href="showAd.asp?adId=1"><img src="../images/gzAD.gif" width="300" height="300" /></a>
 						</div>
 						<!-- AD2 
 						<div class="adBtn">

@@ -27,12 +27,12 @@
 					<!-- right -->
 					<div class="rightSide">
 						<div class="kctdDetail" style="border:1px solid #808080;">
-							<img src="images/gyhy/hy-5.jpg" />
 							<img src="images/gyhy/hy-1.jpg" />
 							<img src="images/gyhy/hy-2.jpg" />
 							<img src="images/gyhy/hy-3.jpg" />
 							<img src="images/gyhy/hy-4.jpg" />
-							
+							<img src="images/gyhy/hy-5.jpg" />
+							<img src="images/gyhy/hy-6.jpg" />
 						</div>
 					</div>
 					
